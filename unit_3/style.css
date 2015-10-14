@@ -7,8 +7,9 @@
 	text-align: center;
 }
 body {
-	background-image: "images/tony_main_image.jpg";
-	font-color: #ffffff;
+	background: "images/tony_main_image.jpg";
+	background-color: #0000ff;
+	font-color: #f8f8ff;
 }
 h1 {
 	font-size: 28px
