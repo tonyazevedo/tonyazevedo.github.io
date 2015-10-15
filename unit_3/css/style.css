@@ -1,8 +1,8 @@
 
 body {
-	background: "images/tony_main_image.jpg";
+	background-image: "images/tony_main_image.jpg";
 	background-color: #ffff00;
-	font-color: #ffffff;
+	color: #ffffff;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: bold;
 }
