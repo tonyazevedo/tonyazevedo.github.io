@@ -1,17 +1,14 @@
-#menu {
-	font-size: 16px;
-	font-family: "Maven Pro", sans-serif;
-	font-weight: bold;
-	text-align: left;
-}
 body {
 	background: "images/tony_main_image.jpg";
-	background-color: #0000ff;
-	font-color: #f8f8ff;
-}
-h1, p {
-	font-size: 28px
+	background-color: #0000FF;
+	font-color: #F8F8FF;
 	font-family: "Maven Pro", sans-serif;
 	font-weight: bold;
-	text-align: right;
+}
+h1 {
+	font-size: 34px;
+}
+p {
+	font-size: 28px;
+
 }
