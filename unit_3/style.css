@@ -1,7 +1,7 @@
 body {
-	background: "images/tony_main_image.jpg";
+	background-image: "images/tony_main_image.jpg";
 	background-color: #0000FF;
-	font-color: #F8F8FF;
+	font-color: #FFFFFF;
 	font-family: "Maven Pro", sans-serif;
 	font-weight: bold;
 }
