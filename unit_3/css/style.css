@@ -21,6 +21,7 @@ a {
 #menu {
 	font-size: 20px;
 }
-#boxes {
+#box1 {
 	font-size=22px;
+	background-image: url(/images/tony_academy.jpg);
 }
