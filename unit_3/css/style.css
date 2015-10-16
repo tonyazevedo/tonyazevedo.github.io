@@ -1,6 +1,6 @@
 
 body {
-	background-image: url(images/tony_main_image.jpg);
+	background-image: url(/images/tony_main_image.jpg);
 	background-color: #0000ff;
 	color: #ffffff;
 	font-family: Tahoma, Geneva, sans-serif;
@@ -20,5 +20,7 @@ a {
 }
 #menu {
 	font-size: 20px;
-	text-decoration: none;
+}
+#boxes {
+	font-size=22px;
 }
