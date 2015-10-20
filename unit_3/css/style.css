@@ -2,13 +2,17 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 @import url(https://fonts.googleapis.com/css?family=Bitter);
 body {
-	background-image: url(../images/tony_main_image.jpg);
+	/*background-image: url(../images/tony_main_image.jpg);*/
 	background-color: #0000ff;
 	color: #ffffff;
 }
 h1 {
 }
 p {
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
 }
 #menu {
 	font-family: 'Bitter', serif;
