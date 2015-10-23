@@ -14,29 +14,28 @@ p {
 a {
 	color: #F8F8FF;
 	text-decoration: none;
-	display: block;
-	width: 3em;
 	text-transform: uppercase;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 #menu {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
-	background-color: #FF0000;
-	list-style: none;
-	text-align: center;
-	padding: 0; 
-	margin: 0;
-	/*why do we set these to 0?*/
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 }
 #headline {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3em;
 }
 #splash {
-	background-color: #FFD700;
-	text-align: right;
-	display: inline;
-	padding: 2em;
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 #slogan {
 	font-family: 'Noto Serif', serif;
@@ -45,11 +44,14 @@ a {
 #navboxes {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
-	background-color: #00FF7F;
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 #contact {
 	font-family: 'Bitter', serif;
 	font-size: em;
-	background-color: #708090;
-	padding: 2em em;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
