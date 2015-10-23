@@ -14,15 +14,19 @@ p {
 a {
 	color: #F8F8FF;
 	text-decoration: none;
+	display: block;
+	width: 3em;
+	text-transform: uppercase;
 }
 #menu {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
 	background-color: #FF0000;
-	display: inline;
+	list-style: none;
+	text-align: center;
+	padding: 0; 
 	margin: 0;
-	padding: 0;
-	list-style-type: none;
+	/*why do we set these to 0?*/
 }
 #headline {
 	font-family: 'Montserrat', sans-serif;
