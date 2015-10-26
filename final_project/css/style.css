@@ -1,3 +1,4 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 @import url(https://fonts.googleapis.com/css?family=Bitter);
@@ -8,38 +9,32 @@ body {
 	font-size: 18px;
 }
 h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3em;
 }
 p {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
 }
 a {
 	color: #F8F8FF;
 	text-decoration: none;
 	text-transform: uppercase;
 }
-header {
+nav {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
-}
-#menu {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
 }
-#headline {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 3em;
-}
 #splash {
 	background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
-}
-#slogan {
-	font-family: 'Noto Serif', serif;
-	font-size: 2em;
 }
 #navboxes {
 	font-family: 'Bitter', serif;
@@ -54,4 +49,19 @@ header {
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding: 20px;
+}
+#navboxes a {
+	border:1px solid;
+	display:block;
+	float:left;
+	padding:4em;
+	text-align:center;
+	width:33.33%;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
