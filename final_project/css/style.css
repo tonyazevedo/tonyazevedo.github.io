@@ -20,16 +20,14 @@ a {
 	color: #F8F8FF;
 	text-decoration: none;
 	text-transform: uppercase;
+	display: block;
+	padding: 10px;
+	width: 200px;
 }
 nav {
 	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
 	font-family: 'Bitter', serif;
 	font-size: 1em;
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
 }
 #splash {
 	background-color: #E89C6C;
