@@ -38,13 +38,6 @@ nav {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
 }
-#contact {
-	font-family: 'Bitter', serif;
-	font-size: em;
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
-}
 #navboxes a {
 	border:1px solid;
 	display:block;
@@ -55,6 +48,13 @@ nav {
 }
 a:hover {
 	background-color: #FF1493;
+}
+#contact {
+	font-family: 'Bitter', serif;
+	font-size: em;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 .clearfix:after { 
 	content: "."; 
