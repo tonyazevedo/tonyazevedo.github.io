@@ -1,14 +1,31 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-image: "images/tony_main_image.jpg";
 	background-color: #0000FF;
 	font-color: #FFFFFF;
 	font-family: "Maven Pro", sans-serif;
 	font-weight: bold;
+	font-size:16px;
 }
 h1 {
-	font-size: 34px;
+	font-size: 2em;
 }
 p {
 	font-size: 28px;
-
+	margin:1em;
+}
+#navboxes a {
+	border:1px solid;
+	display:block;
+	float:left;
+	padding:4em;
+	text-align:center;
+	width:33.33%;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
