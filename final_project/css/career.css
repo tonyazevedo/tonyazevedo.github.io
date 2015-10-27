@@ -21,9 +21,13 @@ p {
 	background-color: #E582A2;
 	border: .2em black solid;
 	padding: 1.2em;
+	float: left;
+	width: 46%;
 }
 #right {
 	background-color: #E55B88;
 	border: .2em black solid;
 	padding: 1.2em;
+	float: right;
+	width: 46%;
 }
