@@ -1,0 +1,28 @@
+body {
+	background-color: #4682B4;
+	color: #F8F8FF;
+	font-size: 16px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+}
+p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+}
+#two_column {
+	background-color: #FFB7CF;
+	border: .2em black solid;
+	padding: 1.2em;
+}
+#left {
+	background-color: #E582A2;
+	border: .2em black solid;
+	padding: 1.2em;
+}
+#right {
+	background-color: #E55B88;
+	border: .2em black solid;
+	padding: 1.2em;
+}
