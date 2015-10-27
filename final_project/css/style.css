@@ -37,6 +37,9 @@ nav {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+#headline {
+	float: right;
+}
 #navboxes {
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
