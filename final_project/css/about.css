@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #000000;
+	background-color: #FFFFFF;
 	font-color: #FFFFFF;
 	font-size: 18px;
 }
@@ -13,6 +13,13 @@ ul {
 	font-variant: small-caps;
 	font-weight: bold;
 }
+a {
+	font-size: 2em;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: .2em solid #FFFFFF;
+	text-transform: uppercase;
+}
 #leftside {
 	font-size: 2em;
 	float: left;
@@ -21,20 +28,12 @@ ul {
 }
 #rightside {
 	float:left;
-	width: 50%;
+	width: 46%;
 	margin: 4%;
 }
 #headshot {
 	height: 15em;
 	float: left;
-}
-a {
-	font-size: 2em;
-	text-decoration: none;
-	color: #FFFFFF;
-	border: .2em solid #FFFFFF;
-	text-transform: uppercase;
-	clear: both;
 }
 .clearfix:after {
 	visibility: hidden;
