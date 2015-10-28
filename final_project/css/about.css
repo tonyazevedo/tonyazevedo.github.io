@@ -7,6 +7,7 @@ body {
 h2 {
 	font-size: 1.5em;
 	text-transform: uppercase;
+	margin: 2em;
 }
 ul {
 	font-variant: small-caps;
@@ -21,13 +22,13 @@ a {
 }
 #leftside {
 	float: left;
-	width: 44%;
-	margin: 4%;
+	width: 46%;
+	margin: 2%;
 }
 #rightside {
 	float:left;
 	width: 44%;
-	margin: 4%;
+	margin: 2%;
 }
 #biography {
 	margin: 1em;
