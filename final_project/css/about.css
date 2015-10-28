@@ -11,11 +11,13 @@ h2 {
 #leftside {
 	font-size: 2em;
 	float: left;
-	border: .2em solid #FFFFFF;
-	margin: .4em;
+	width: 46%;
+	margin: 4%;
 }
 #rightside {
 	float:left;
+	width: 50%;
+	margin: 4%;
 }
 ul {
 	list-style-type: none;
