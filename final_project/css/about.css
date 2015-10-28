@@ -1,0 +1,28 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFFFF;
+	color: #F8F8FF;
+	font-size: 18px;
+}
+h2 {
+	font-size: 1.5em;
+}
+section {
+	font-size: 2em;
+	float: left;
+	border: .2em solid #F8F8FF;
+	margin: .4em;
+}
+#headshot {
+	float: left;
+	margin: .2em .4em;
+}
+#cheer {
+	float: right;
+	margin: .2em .4em;
+}
+a {
+	text-decoration: none;
+	color: #F8F8FF;
+	border: .2em solid #F8F8FF;
+}
