@@ -8,6 +8,11 @@ h2 {
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
+ul {
+	list-style-type: none;
+	font-variant: small-caps;
+	font-weight: bold;
+}
 #leftside {
 	font-size: 2em;
 	float: left;
@@ -18,11 +23,6 @@ h2 {
 	float:left;
 	width: 50%;
 	margin: 4%;
-}
-ul {
-	list-style-type: none;
-	font-variant: small-caps;
-	font-weight: bold;
 }
 #headshot {
 	height: 15em;
@@ -35,4 +35,12 @@ a {
 	border: .2em solid #FFFFFF;
 	text-transform: uppercase;
 	clear: both;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
