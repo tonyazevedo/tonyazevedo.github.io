@@ -21,16 +21,19 @@ a {
 }
 #leftside {
 	float: left;
-	width: 46%;
-	margin: 2%;
+	width: 44%;
+	margin: 4%;
 }
 #rightside {
 	float:left;
-	width: 46%;
-	margin: 2%;
+	width: 44%;
+	margin: 4%;
 }
-#textblocks {
+#biography {
 	margin: 4em;
+}
+#highlights {
+	margin: 2em 0;
 }
 #headshot {
 	height: 15em;
