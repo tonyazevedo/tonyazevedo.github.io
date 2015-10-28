@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000000;
-	color: #FFFFFF;
+	color: #F8F8FF;
 	font-size: 20px;
 }
 h2 {
@@ -17,19 +17,19 @@ ul {
 a {
 	font-size: 2em;
 	text-decoration: none;
-	color: #FFFFFF;
-	border: .2em solid #FFFFFF;
+	color: #F8F8FF;
+	border: .2em solid #F8F8FF;
 	text-transform: uppercase;
 }
 #leftside {
 	float: left;
 	width: 46%;
-	margin: 4%;
+	margin: 2%;
 }
 #rightside {
 	float:left;
 	width: 46%;
-	margin: 4%;
+	margin: 2%;
 }
 #headshot {
 	height: 15em;
