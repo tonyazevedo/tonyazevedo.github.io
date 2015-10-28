@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000000;
-	font-color: #F8F8FF;
+	font-color: #FFFFFF;
 	font-size: 18px;
 }
 h2 {
@@ -11,7 +11,7 @@ h2 {
 #leftside {
 	font-size: 2em;
 	float: left;
-	border: .2em solid #F8F8FF;
+	border: .2em solid #FFFFFF;
 	margin: .4em;
 }
 #rightside {
@@ -28,8 +28,8 @@ ul {
 a {
 	font-size: 2em;
 	text-decoration: none;
-	color: #F8F8FF;
-	border: .2em solid #F8F8FF;
+	color: #FFFFFF;
+	border: .2em solid #FFFFFF;
 	text-transform: uppercase;
 	clear: both;
 }
