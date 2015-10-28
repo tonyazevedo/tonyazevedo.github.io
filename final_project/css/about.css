@@ -9,9 +9,7 @@ h2 {
 	text-transform: uppercase;
 }
 ul {
-	list-style-type: none;
 	font-variant: small-caps;
-	font-weight: bold;
 	font-size: 1.2em;
 }
 a {
