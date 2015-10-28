@@ -26,6 +26,7 @@ ul {
 }
 #headshot {
 	height: 15em;
+	float: left;
 }
 a {
 	font-size: 2em;
