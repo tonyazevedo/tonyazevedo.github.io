@@ -2,7 +2,7 @@
 body {
 	background-color: #000000;
 	color: #FFFFFF;
-	font-size: 18px;
+	font-size: 20px;
 }
 h2 {
 	font-size: 1.5em;
@@ -12,6 +12,7 @@ ul {
 	list-style-type: none;
 	font-variant: small-caps;
 	font-weight: bold;
+	font-size: 1.2em;
 }
 a {
 	font-size: 2em;
@@ -21,7 +22,6 @@ a {
 	text-transform: uppercase;
 }
 #leftside {
-	font-size: 2em;
 	float: left;
 	width: 46%;
 	margin: 4%;
@@ -34,6 +34,7 @@ a {
 #headshot {
 	height: 15em;
 	float: left;
+	margin: .4em;
 }
 .clearfix:after {
 	visibility: hidden;
