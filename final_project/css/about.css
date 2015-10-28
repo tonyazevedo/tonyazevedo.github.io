@@ -6,6 +6,7 @@ body {
 }
 h2 {
 	font-size: 1.5em;
+	text-transform: uppercase;
 }
 #leftside {
 	font-size: 2em;
@@ -29,6 +30,6 @@ a {
 	text-decoration: none;
 	color: #F8F8FF;
 	border: .2em solid #F8F8FF;
-	font-variant: small-caps;
+	text-transform: uppercase;
 	clear: both;
 }
