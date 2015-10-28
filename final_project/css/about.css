@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #FFFFFF;
-	color: #F8F8FF;
+	background-color: #000000;
+	font-color: #F8F8FF;
 	font-size: 18px;
 }
 h2 {
@@ -12,6 +12,10 @@ section {
 	float: left;
 	border: .2em solid #F8F8FF;
 	margin: .4em;
+}
+ul {
+	list-style-type: none;
+	font-variant: small-caps;
 }
 #headshot {
 	float: left;
@@ -25,4 +29,5 @@ a {
 	text-decoration: none;
 	color: #F8F8FF;
 	border: .2em solid #F8F8FF;
+	font-variant: small-caps;
 }
