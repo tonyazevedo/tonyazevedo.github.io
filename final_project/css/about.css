@@ -16,10 +16,10 @@ section {
 ul {
 	list-style-type: none;
 	font-variant: small-caps;
+	font-weight: bold;
 }
 #headshot {
-	float: left;
-	margin: .2em .4em;
+	height: 15em;
 }
 #cheer {
 	float: right;
@@ -30,4 +30,5 @@ a {
 	color: #F8F8FF;
 	border: .2em solid #F8F8FF;
 	font-variant: small-caps;
+	clear: both;
 }
