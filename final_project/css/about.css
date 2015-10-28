@@ -29,10 +29,18 @@ a {
 	width: 46%;
 	margin: 2%;
 }
+#highlights {
+	margin: 2em 0;
+}
 #headshot {
 	height: 15em;
 	float: left;
 	margin: .4em;
+}
+#media {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .clearfix:after {
 	visibility: hidden;
