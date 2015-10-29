@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding: 2em 4em;
+}
+h2 {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+	padding: 2em 0 0 1em;
+	border-bottom: medium solid #000000;
+}
+p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1em;
+	padding: 2em 0 2em .5em;
+}
+a {
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #000000;
+	padding: 0 0 0 .5em;
+}
+h2:hover {
+	color: #00BFFF;
+}
+a:hover {
+	color: #FF0000;
+}
+#awpinfo {
+	float: left;
+	width: 60%;
+	padding: 4%;
+}
+#jacks {
+	height: 22em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
+#djinfo {
+	float: right;
+	width: 60%;
+	padding: 4%;
+}
+#djwave {
+	height: 22em;
+	float: left;
+	width: 36%;
+	padding: 4%;
+}
+#wpoinfo {
+	float: left;
+	width: 60%;
+	padding: 4%;
+}
+#founders {
+	height: 20em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
