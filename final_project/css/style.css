@@ -16,6 +16,12 @@ p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 }
+nav {
+	background-color: #FFFFFF;
+	font-family: 'Bitter', serif;
+	font-size: 2em;
+	font-weight: bold;
+}
 a {
 	color: #F8F8FF;
 	text-decoration: none;
@@ -24,10 +30,8 @@ a {
 	padding: .8em;
 	width: 14em;
 }
-nav {
-	background-color: #FFED74;
-	font-family: 'Bitter', serif;
-	font-size: 1em;
+a:hover {
+	color: #00BFFF;
 }
 #splash {
 	height: 90vh;
@@ -52,9 +56,6 @@ nav {
 	text-align:center;
 	width:33.33%;
 }
-a:hover {
-	color: #FF1493;
-}
 #contact {
 	font-family: 'Bitter', serif;
 	font-size: 1em;
@@ -63,9 +64,10 @@ a:hover {
 	padding: 1.2em;
 }
 .clearfix:after { 
-	content: "."; 
 	visibility: hidden; 
 	display: block; 
-	height: 0; 
+	font-size: 0;
+	content: "."; 
 	clear: both;
+	height: 0; 
 }
