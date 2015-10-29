@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+}
+h2 {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+	padding: 0 0 .5em 0;
+	border-bottom: medium solid #000000;
+}
+h3 {
+	font-size: 1.8em;
+}
+p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+	padding: 2em 0 2em .5em;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 1.2em;
+}
+h2:hover {
+	color: #00BFFF;
+}
+a:hover {
+	color: #FF0000;
+}
+#clinicinfo {
+	float: left;
+	width: 60%;
+	padding: 4%;
+}
+#coaching {
+	height: 22em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
+#academyinfo {
+	float: right;
+	width: 60%;
+	padding: 4%;
+}
+#stanford {
+	height: 22em;
+	float: left;
+	width: 36%;
+	padding: 4%;
+}
+#list {
+	color: #FF0000;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#request {
+	color: #FF0000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: medium solid #000000;
+	padding: .2em .5em;
+}
+.clearfix:after { 
+	visibility: hidden; 
+	display: block; 
+	font-size: 0;
+	content: "."; 
+	clear: both;
+	height: 0; 
+}
