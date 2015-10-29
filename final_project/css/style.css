@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	/*background-image: url(../images/tony_main_image.jpg);*/
 	background-color: #000000;
 	color: #F8F8FF;
 	font-size: 16px;
