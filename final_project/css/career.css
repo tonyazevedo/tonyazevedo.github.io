@@ -1,32 +1,30 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #4682B4;
+	background-color: #000000;
 	color: #F8F8FF;
 	font-size: 16px;
 }
-h1 {
+h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
+}
+h3, li {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.8em;
 }
 p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 }
 #two_column {
-	background-color: #FFB7CF;
-	border: .2em black solid;
 	padding: 1.2em;
 }
 #left {
-	background-color: #E582A2;
-	border: .2em black solid;
 	padding: 1.2em;
 	float: left;
 	width: 46%;
 }
 #right {
-	background-color: #E55B88;
-	border: .2em black solid;
 	padding: 1.2em;
 	float: right;
 	width: 46%;
