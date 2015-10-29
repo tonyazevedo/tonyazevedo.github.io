@@ -1,11 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000000;
 	color: #F8F8FF;
 	font-size: 20px;
+	font-family: 'Noto Serif', serif;
 }
 h2 {
 	font-size: 1.5em;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	margin: 1em .7em;
 }
@@ -15,6 +20,7 @@ ul {
 }
 a {
 	font-size: 2em;
+	font-family: 'Bitter', serif;
 	text-decoration: none;
 	color: #F8F8FF;
 	border: .2em solid #F8F8FF;
@@ -23,12 +29,14 @@ a {
 #leftside {
 	float: left;
 	width: 46%;
-	margin: 2%;
+	padding: 1%;
+	margin: 1%;
 }
 #rightside {
 	float:left;
 	width: 42%;
-	margin: 4%;
+	padding: 2%;
+	margin: 2%;
 }
 #biography {
 	margin: 1em;
