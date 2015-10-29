@@ -3,28 +3,30 @@
 @import url(https://fonts.googleapis.com/css?family=Bitter);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-color: #000000;
-	color: #D3D3D3;
-	font-size: 20px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
 	font-family: 'Noto Serif', serif;
 }
 h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	margin: 1em .7em;
+	margin: 2em 0 1em .8em;
 }
 ul {
-	font-variant: small-caps;
 	font-size: 1.2em;
+	padding: 0 1.5em;
 }
 a {
 	font-size: 2em;
 	font-family: 'Bitter', serif;
 	text-decoration: none;
-	color: #F8F8FF;
-	border: .2em solid #F8F8FF;
+	color: #000000;
+	border: .2em solid #000000;
 	text-transform: uppercase;
+}
+h2:hover {
+	color: #00BFFF;
 }
 #leftside {
 	float: left;
