@@ -16,6 +16,9 @@ h2 {
 h3 {
 	font-size: 1.8em;
 }
+h4 {
+	font-size: 2em;
+}
 p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
@@ -28,6 +31,9 @@ a {
 }
 h2:hover {
 	color: #00BFFF;
+}
+h4:hover {
+	color: #FFFF00;
 }
 a:hover {
 	color: #FF0000;
@@ -54,12 +60,41 @@ a:hover {
 	width: 36%;
 	padding: 4%;
 }
+#academies {
+	padding: 1.2em;
+}
+#winter {
+	padding: 1.2em;
+	float: left;
+	width: 46%;
+}
+#summer {
+	padding: 1.2em;
+	float: right;
+	width: 46%;
+}
 #list {
 	color: #FF0000;
 	font-size: 1.2em;
 	font-weight: bold;
 }
 #request {
+	color: #FF0000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: medium solid #000000;
+	padding: .2em .5em;
+}
+#signup {
+	color: #FF0000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: medium solid #000000;
+	padding: .2em .5em;
+}
+#reserve {
 	color: #FF0000;
 	font-size: 2em;
 	font-variant: small-caps;
