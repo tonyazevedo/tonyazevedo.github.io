@@ -16,6 +16,7 @@ p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 	margin: .3em .1em;
+	line-height: 1.2em;
 }
 a {
 	text-decoration: none;
@@ -30,7 +31,6 @@ a {
 #onecontainer {
 	width: 95%;
 	margin: .8em auto;
-	line-height: 1.618em;
 }
 #private {
 	float: left;
@@ -55,4 +55,12 @@ a {
 }
 #one {
 	height: 90vh;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
