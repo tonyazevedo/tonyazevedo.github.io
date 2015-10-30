@@ -4,26 +4,26 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #000000;
-	color: #F8F8FF;
+	color: #FFFFFF;
 	font-size: 16px;
 }
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2.4em;
+	font-size: 2.5em;
 }
 p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 	font-style: italic;
+	margin: auto;
 }
 nav {
 	background-color: #000000;
 	font-family: 'Bitter', serif;
 	font-size: 1.5em;
-	font-weight: bold;
 }
 a {
-	color: #F8F8FF;
+	color: #FFFFFF;
 	text-decoration: none;
 	display: block;
 	float: left;
@@ -40,13 +40,13 @@ a:hover {
 	float: left;
 	width: 66%;
 	padding: 2%;
-	margin: 2%;
+	margin: 2em 0 4em 1.5em;
+	height: 90vh;
 }
 #headline {
 	float: left;
 	width: 26%;
-	padding: 2%;
-	margin: 2%;
+	margin: 6em 3em 4em 0;
 }
 #navboxes {
 	font-family: 'Bitter', serif;

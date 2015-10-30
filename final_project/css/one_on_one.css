@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	padding: .2em .1em .5em .1em;
+}
+p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+	margin: .3em .1em;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: medium solid #000000;
+	padding: .2em .5em;
+	margin: .2em auto;
+}
+#onecontainer {
+	width: 95%;
+	margin: .8em auto;
+	line-height: 1.618em;
+}
+#private {
+	float: left;
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	background-color: #FF0000;
+}
+#motivational {
+	float: left;
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	background-color: #00BFFF;
+}
+#consulting {
+	float: left;
+	width: 30%;
+	padding: 1%;
+	margin: 1%;
+	background-color: #FFFF00;
+}
+#one {
+	height: 90vh;
+}

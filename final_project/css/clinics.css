@@ -78,7 +78,7 @@ a:hover {
 	font-size: 1.2em;
 	font-weight: bold;
 }
-#request {
+.reserve {
 	color: #FF0000;
 	font-size: 2em;
 	font-variant: small-caps;
@@ -86,7 +86,7 @@ a:hover {
 	border: medium solid #000000;
 	padding: .2em .5em;
 }
-#signup {
+/*#signup {
 	color: #FF0000;
 	font-size: 2em;
 	font-variant: small-caps;
@@ -100,7 +100,7 @@ a:hover {
 	font-variant: small-caps;
 	font-weight: bold;
 	border: medium solid #000000;
-	padding: .2em .5em;
+	padding: .2em .5em;*/
 }
 .clearfix:after { 
 	visibility: hidden; 
