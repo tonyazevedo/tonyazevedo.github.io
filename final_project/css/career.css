@@ -11,19 +11,24 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 	padding: 0 0 .5em 0;
-	border-bottom: medium solid #000000;
+	border-bottom: .2em solid #000000;
 }
-h3, li {
+h3 {
 	font-family: 'Noto Serif', serif;
-	font-size: 1.8em;
-	padding: 1em 0 0 0;
+	font-size: 1.5em;
+	padding: 1em 0 .5em 0;
+}
+li {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
 }
 p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 }
 ul {
-	padding: 1em 0 1.5em 0;
+	padding: 2em 0 1.5em 0;
+	line-heigh: 2em;
 }
 h2:hover {
 	color: #00BFFF;
@@ -40,6 +45,9 @@ h2:hover {
 	padding: 1.2em;
 	float: right;
 	width: 46%;
+}
+.proleague:hover {
+	background-color: #00BFFF;
 }
 .clearfix:after {
 	visibility: hidden;
