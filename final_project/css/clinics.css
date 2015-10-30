@@ -18,21 +18,31 @@ h3 {
 }
 h4 {
 	font-size: 2em;
+	padding: 0;
+	margin: 0;
 }
 p {
 	font-family: 'Noto Serif', serif;
-	font-size: 1.5em;
-	padding: 2em 0 2em 0em;
+	font-size: 1.3em;
+	padding: 2em 0 1em 0em;
 }
 a {
 	text-decoration: none;
 	color: #000000;
 	font-size: 1.2em;
 }
+#current {
+	line-height: .8em;
+	padding: 0 0 1em 0;
+}
+#currentinfo {
+	font-style: italic;
+	margin: 0 0 1em 0;
+}
 h2:hover {
 	color: #00BFFF;
 }
-h3:hover {
+#current:hover {
 	background-color: #00BFFF;
 }
 h4:hover {
@@ -47,21 +57,21 @@ a:hover {
 	padding: 4%;
 }
 #coaching {
-	height: 22em;
+	height: 27em;
 	float: right;
 	width: 36%;
-	padding: 4%;
+	padding: 7em .8em 0 0;
 }
 #academyinfo {
 	float: right;
 	width: 60%;
 	padding: 4%;
 }
-#stanford {
-	height: 22em;
+#academy {
+	height: 27em;
 	float: left;
 	width: 36%;
-	padding: 4%;
+	padding: 7em 0 2em 1em;
 }
 #academies {
 	padding: 1.2em;
@@ -78,8 +88,7 @@ a:hover {
 }
 #list {
 	color: #FF0000;
-	font-size: 1.2em;
-	font-weight: bold;
+	font-size: 1em;
 }
 .reserve {
 	color: #FF0000;
@@ -87,23 +96,8 @@ a:hover {
 	font-variant: small-caps;
 	font-weight: bold;
 	border: medium solid #000000;
-	padding: .2em .5em;
-}
-/*#signup {
-	color: #FF0000;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: medium solid #000000;
-	padding: .2em .5em;
-}
-#reserve {
-	color: #FF0000;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: medium solid #000000;
-	padding: .2em .5em;*/
+	padding: .3em .5em;
+	margin: .5em 0 0 0;
 }
 .clearfix:after { 
 	visibility: hidden; 
