@@ -43,7 +43,10 @@ h2:hover {
 #headshot {
 	height: 15em;
 	float: left;
-	margin: .4em;
+	margin: .4em 1em .4em .4em;
+}
+#cheer {
+	margin: 0 ;
 }
 #media {
 	font-size: 2em;

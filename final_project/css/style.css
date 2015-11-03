@@ -35,7 +35,7 @@ a:hover {
 	color: #00BFFF;
 }
 #hero {
-	background:url(../images/tony_main_image.jpg) no-repeat;
+	background:url(../images/tony_mikasa.jpeg) no-repeat;
 	background-size:cover;
 	float: left;
 	width: 66.66%;
@@ -92,7 +92,7 @@ a:hover {
 	background-position:center;
 }
 #blogbox {
-	background-image: url("../images/espn_body_shot.jpeg");
+	background-image: url("../images/tony_water.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center;
