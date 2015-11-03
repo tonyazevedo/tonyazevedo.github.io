@@ -38,13 +38,13 @@ a:hover {
 	background:url(../images/tony_main_image.jpg) no-repeat;
 	background-size:cover;
 	float: left;
-	width: 66%;
+	width: 66.66%;
 	height: 90vh;
 }
 #headline {
 	float: left;
-	width: 30%;
-	margin: 6em 3em 4em 0;
+	width: 33.33%;
+	margin: 8em 0;
 }
 #navboxes {
 	font-family: 'Noto Serif', serif;
@@ -124,7 +124,7 @@ footer {
 	text-align: center;
 }
 img {
-	height: 10em;
+	height: 15em;
 }
 .clearfix:after { 
 	visibility: hidden; 
