@@ -112,6 +112,10 @@ footer {
 	width: 31%;
 	text-align: center;
 }
+#twitter {
+	border: none;
+	text-decoration: none;
+}
 #contact a:hover {
 	color: #FF0000;
 }

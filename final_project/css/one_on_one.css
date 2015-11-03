@@ -41,6 +41,7 @@ a {
 	padding: 1%;
 	margin: 1%;
 	background-color: #FF0000;
+	height: 44em;
 }
 #motivational {
 	float: left;
@@ -48,6 +49,7 @@ a {
 	padding: 1%;
 	margin: 1%;
 	background-color: #00BFFF;
+	height: 44em;
 }
 #consulting {
 	float: left;
@@ -55,6 +57,7 @@ a {
 	padding: 1%;
 	margin: 1%;
 	background-color: #FFFF00;
+	height: 44em;
 }
 #one {
 	height: 12em;
@@ -63,6 +66,10 @@ a {
 #interview {
 	height: 10em;
 	margin: 0 auto 1.5em;
+}
+#elton {
+	height: 10em;
+	margin .5em;
 }
 #motivatecen {
 	text-align: center;
