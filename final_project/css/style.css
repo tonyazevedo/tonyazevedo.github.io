@@ -123,6 +123,9 @@ footer {
 	width: 40%;
 	text-align: center;
 }
+img {
+	height: 10em;
+}
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 
