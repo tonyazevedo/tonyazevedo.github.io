@@ -73,13 +73,15 @@ a:hover {
 	background-image: url ("../images/tony_academy.jpg");
 	background-repeat: none;
 }
-#content {
+#contact {
 	width: 95%;
+	background-color: #00BFFF;
 }
 .logos {
 	display: block;
 	float: left;
 	padding: 2%;
+	margin: 2%;
 	width: 50%;
 }
 .clearfix:after { 
