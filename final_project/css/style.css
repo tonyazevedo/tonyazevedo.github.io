@@ -115,16 +115,21 @@ footer {
 #contact a:hover {
 	color: #FF0000;
 }
-#logos img {
+#mainlogos img {
 	display: block;
 	float: left;
-	margin: 2% 4%;
+	margin: 1% 10%;
 	padding: 2%;
-	width: 40%;
+	width: 25%;
 	text-align: center;
+	height: 10em;
 }
-img {
-	height: 15em;
+#secondlogos img {
+	display: block;
+	float: left;
+	margin: 0 10%;
+	width: 12%;
+	text-align: center;
 }
 .clearfix:after { 
 	visibility: hidden; 
