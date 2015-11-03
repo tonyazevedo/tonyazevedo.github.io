@@ -11,14 +11,6 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
 }
-h2 {
-	diplay: block;
-	float: left;
-	padding: 1em 3em;
-	margin: 1em .5em;
-	font-size 1.3em;
-	width: 30%;
-}
 p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
@@ -27,44 +19,47 @@ p {
 }
 nav {
 	background-color: #000000;
-	font-family: 'Bitter', serif;
+	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 }
-a {
+nav a {
 	color: #FFFFFF;
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: 1.2em;
-	width: 10.5em;
+	padding: 2%;
+	width: 22%;
+	text-align: center;
 }
 a:hover {
 	color: #00BFFF;
 }
 #hero {
-	background:url(../images/tony_mikasa.jpeg) no-repeat;
+	background:url(../images/tony_main_image.jpg) no-repeat;
 	background-size:cover;
 	float: left;
-	width: 66.66%;
+	width: 66%;
 	height: 90vh;
 }
 #headline {
 	float: left;
-	width: 26%;
+	width: 30%;
 	margin: 6em 3em 4em 0;
 }
 #navboxes {
-	font-family: 'Bitter', serif;
+	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
 }
 #navboxes a {
-	border:.06em solid;
+	color: #FFFFFF;
+	text-decoration: none;
+	border:.06em solid #FFFFFF;
 	display:block;
 	float:left;
 	padding:4em;
 	text-align:center;
 	width:33.33%;
-	height: 10em;
+	height: 11em;
 }
 #academybox {
 	background-image: url("../images/tony_academy.jpg");
@@ -72,16 +67,61 @@ a:hover {
 	background-size:cover;
 	background-position:center;
 }
-#contact {
-	width: 95%;
+#overseasbox {
+	background-image: url("../images/awp_camogli_scene.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#oneononebox {
+	background-image: url("../images/one_on_one.JPG");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#gearbox {
+	background-image: url("../images/tony_gear.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#hababox {
+	background-image: url("../images/habawaba_2.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+#blogbox {
+	background-image: url("../images/espn_body_shot.jpeg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+footer {
 	background-color: #00BFFF;
 }
-.logos {
+#contact a {
+	border:.06em solid #FFFFFF;
+	margin: 6% 1%;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-decoration: none;
 	display: block;
 	float: left;
+	padding: 1%;
+	width: 31%;
+	text-align: center;
+}
+#contact a:hover {
+	color: #FF0000;
+}
+#logos img {
+	display: block;
+	float: left;
+	margin: 2% 4%;
 	padding: 2%;
-	margin: 2%;
-	width: 50%;
+	width: 40%;
+	text-align: center;
 }
 .clearfix:after { 
 	visibility: hidden; 
