@@ -349,6 +349,72 @@ h4:hover {
 	margin: 1em 0 0 0;
 	text-decoration: none;
 }
+#beyondhead {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding: 2em 4em;
+}
+.beyondgroups {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+	padding: 2em 0 0 1em;
+	border-bottom: medium solid #000000;
+}
+.beyondp {
+	font-family: 'Noto Serif', serif;
+	font-size: 1em;
+	padding: 2em 0 2em .5em;
+	line-height: 1.6em;
+}
+.beyonda {
+	font-size: 1.8em;
+	text-decoration: none;
+	color: #000000;
+	padding: 0 0 0 .3em;
+}
+.beyondgroups:hover {
+	color: #00BFFF;
+}
+.beyonda:hover {
+	color: #FF0000;
+}
+#awpinfo {
+	float: left;
+	width: 60%;
+	padding: 2em 0 0 1.5em;
+	line-height: 1.8em;
+}
+#jacks {
+	height: 22em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
+#djinfo {
+	float: right;
+	width: 60%;
+	padding: 4%;
+}
+#djwave {
+	height: 22em;
+	float: left;
+	width: 36%;
+	padding: 2.2em 0 2em 1.5em;
+}
+#wpoinfo {
+	float: left;
+	width: 60%;
+	padding: 2em 0 0 1.5em;
+}
+#founders {
+	height: 20em;
+	float: right;
+	width: 36%;
+	padding: 4%;
+}
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 
