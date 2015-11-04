@@ -105,6 +105,9 @@ a:hover {
 	background-size:cover;
 	background-position:center;
 }
+footer {
+	clear: both;
+}
 #bottomnav {
 	background-color: #000000;
 }
@@ -117,7 +120,7 @@ a:hover {
 	padding: 1%;
 	width: 31%;
 	text-align: center;
-	margin: 2%;
+	margin: 2% 0 2% 3%;
 }
 #social {
 	display: block;
@@ -130,15 +133,15 @@ a:hover {
 	float: left;
 	padding: 1%;
 	width: 31%;
-	margin: 2%;
-	text-align: center;
+	margin: 2% .5% 2% 3%;
 }
 #bottomnav a {
 	border:.06em solid #FFFFFF;
 	color: #FFFFFF;
 	font-size: 1.2em;
 	text-align: center;
-	padding: 2%;
+	padding: 1%;
+	width: 50%;
 }
 #bottomnav a:hover {
 	color: #FF0000;
@@ -146,21 +149,12 @@ a:hover {
 #social img {
 	padding: 1.4%;
 }
-#mainlogos img {
+#logos img {
 	display: block;
 	float: left;
-	margin: 1% 10%;
-	padding: 2%;
-	width: 25%;
-	text-align: center;
-	height: 10em;
-}
-#secondlogos img {
-	display: block;
-	float: left;
-	margin: 0 10%;
-	width: 12%;
-	text-align: center;
+	margin: 1%;
+	padding: 1%;
+	width: 18%;
 }
 #about {
 	background-color: #FFFFFF;
