@@ -355,18 +355,18 @@ h4:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 	text-align: center;
-	padding: 2em 4em;
+	padding: 1em 4em;
 }
 .beyondgroups {
 	font-family: 'Noto Serif', serif;
 	font-size: 2em;
-	padding: 2em 0 0 1em;
-	border-bottom: medium solid #000000;
+	padding: .5em 0 0 .2em;
+	border-bottom: .1em solid #000000;
 }
 .beyondp {
 	font-family: 'Noto Serif', serif;
-	font-size: 1em;
-	padding: 2em 0 2em .5em;
+	font-size: 1.2em;
+	padding: .2em 0 2em .5em;
 	line-height: 1.6em;
 }
 .beyonda {
