@@ -224,6 +224,46 @@ h2:hover {
 #media:hover {
 	color: #FF0000;
 }
+.careerhead {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.2em;
+	padding: 0 0 .5em 0;
+	border-bottom: .1em solid #000000;
+}
+h3 {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+	padding: 0 0 .5em .5em;
+}
+li {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+}
+#accolades {
+	padding: 0em 0 1.5em 2em;
+	line-height: 2.4em;
+	font-family: 'Noto Serif', serif;
+	font-size: 1em;
+}
+.careerhead:hover {
+	color: #00BFFF;
+}
+#two_column {
+	padding: 1.2em;
+}
+#left {
+	padding: 1.2em;
+	float: left;
+	width: 46%;
+}
+#right {
+	padding: 1.2em;
+	float: right;
+	width: 46%;
+}
+.proleague:hover {
+	background-color: #00BFFF;
+}
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 
