@@ -264,6 +264,91 @@ li {
 .proleague:hover {
 	background-color: #00BFFF;
 }
+.clinichead {
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+	padding: 0 0 .5em 0;
+	border-bottom: medium solid #000000;
+}
+h4 {
+	font-size: 2em;
+	padding: 0;
+	margin: 0;
+}
+#clinicsp {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.3em;
+	padding: .5em 0 1em 0em;
+}
+#current {
+	line-height: .8em;
+	padding: 1em 0 1em 0;
+}
+#currentinfo {
+	font-style: italic;
+	margin: 0 0 1em 0;
+}
+.clinichead:hover {
+	color: #00BFFF;
+}
+#current:hover {
+	background-color: #00BFFF;
+}
+h4:hover {
+	color: #FFFF00;
+}
+.reserve:hover {
+	color: #FF0000;
+}
+#clinicinfo {
+	float: left;
+	width: 60%;
+	padding: 4%;
+}
+#coaching {
+	height: 27em;
+	float: right;
+	width: 36%;
+	padding: 7em .8em 0 0;
+}
+#academyinfo {
+	float: right;
+	width: 60%;
+	padding: 4%;
+}
+#academy {
+	height: 27em;
+	float: left;
+	width: 36%;
+	padding: 7em 0 2em 1em;
+}
+#academies {
+	padding: 1.2em;
+}
+#winter {
+	padding: 1.2em;
+	float: left;
+	width: 46%;
+}
+#summer {
+	padding: 1.2em;
+	float: right;
+	width: 46%;
+}
+#list {
+	color: #FF0000;
+	font-size: 1em;
+}
+.reserve {
+	color: #FF0000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: .1em solid #000000;
+	padding: .3em .5em;
+	margin: 1em 0 0 0;
+	text-decoration: none;
+}
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 

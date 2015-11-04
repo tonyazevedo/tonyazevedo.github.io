@@ -7,7 +7,7 @@ body {
 	color: #000000;
 	font-size: 16px;
 }
-h2 {
+.careerhead {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 	padding: 0 0 .5em 0;
@@ -26,11 +26,11 @@ p {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.2em;
 }
-ul {
+#accolades {
 	padding: 2em 0 1.5em 0;
 	line-heigh: 2em;
 }
-h2:hover {
+.careerhead:hover {
 	color: #00BFFF;
 }
 #two_column {
