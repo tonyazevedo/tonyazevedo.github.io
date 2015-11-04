@@ -4,7 +4,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	background-color: #FFFFFF;
-	color: #FFFFFF;
+	color: #000000;
 	font-family: 'Noto Serif', serif;
 	font-size: 16px;
 }
@@ -13,14 +13,6 @@ h1 {
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5em;
-}
-#slogan {
-	background-color: #000000;
-	color: #FFFFFF;
-	font-family: 'Noto Serif', serif;
-	font-size: 1.5em;
-	font-style: italic;
-	margin: auto;
 }
 nav {
 	background-color: #000000;
@@ -39,6 +31,9 @@ nav a {
 a:hover {
 	color: #00BFFF;
 }
+#splash {
+	background-color: #000000;
+}
 #hero {
 	background:url(../images/tony_mikasa.jpeg) no-repeat;
 	background-size:cover;
@@ -50,6 +45,14 @@ a:hover {
 	float: left;
 	width: 33.33%;
 	margin: 8em 0;
+}
+#slogan {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Noto Serif', serif;
+	font-size: 1.5em;
+	font-style: italic;
+	margin: auto;
 }
 #navboxes {
 	font-family: 'Noto Serif', serif;
