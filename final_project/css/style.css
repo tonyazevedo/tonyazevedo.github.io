@@ -215,23 +215,27 @@ h2:hover {
 .careerhead {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2.2em;
-	padding: 0 0 .5em 0;
+	padding: 0 0 .3em 0;
 	border-bottom: .1em solid #000000;
 }
 h3 {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
-	padding: 0 0 .5em .5em;
-}
-li {
-	font-family: 'Noto Serif', serif;
-	font-size: 1.5em;
+	padding: 1.4em 0 .5em 0;
 }
 #accolades {
-	padding: 0em 0 1.5em 2em;
-	line-height: 2.4em;
+	padding: 1.5em 0 0 .2em;
+	line-height: 2em;
 	font-family: 'Noto Serif', serif;
-	font-size: 1em;
+	font-size: 1.4em;
+}
+#accolight:hover {
+	background-color: #FFD700;
+}
+.profcont {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	padding: .4em 0 .5em 0;
 }
 .careerhead:hover {
 	color: #00BFFF;
