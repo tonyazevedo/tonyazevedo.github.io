@@ -270,15 +270,28 @@ h4 {
 #clinicsp {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.3em;
-	padding: .5em 0 1em 0em;
+	padding: 1em 0 0 0em;
+	line-height: 1.8em;
 }
 #current {
 	line-height: .8em;
 	padding: 1em 0 1em 0;
 }
+#currenthead {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.8em;
+	margin: 0 0 .5em 0;
+}
 #currentinfo {
 	font-style: italic;
-	margin: 0 0 1em 0;
+	font-size: 1.2em;
+	margin: 1em 0 2em 0;
+}
+#academyp {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.3em;
+	padding: 1em 0 0 0em;
+	line-height: 1.6em;
 }
 .clinichead:hover {
 	color: #00BFFF;
@@ -287,7 +300,7 @@ h4 {
 	background-color: #00BFFF;
 }
 h4:hover {
-	color: #FFFF00;
+	color: #00BFFF;
 }
 .reserve:hover {
 	color: #FF0000;
@@ -312,7 +325,7 @@ h4:hover {
 	height: 27em;
 	float: left;
 	width: 36%;
-	padding: 7em 0 2em 1em;
+	padding: 4em 0 2em 1em;
 }
 #academies {
 	padding: 1.2em;
@@ -327,13 +340,31 @@ h4:hover {
 	float: right;
 	width: 46%;
 }
+#winter:hover {
+	background-color: #FFD700;
+}
+#summer:hover {
+	background-color: #FFD700;
+}
+#winp {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	padding: 1em 0 2em 0;
+	line-height: 1.3em;
+}
+#sump {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	padding: 1em 0 3em 0;
+	line-height: 1.3em;
+}
 #list {
 	color: #FF0000;
 	font-size: 1em;
 }
 .reserve {
 	color: #FF0000;
-	font-size: 2em;
+	font-size: 2.2em;
 	font-variant: small-caps;
 	font-weight: bold;
 	border: .1em solid #000000;
