@@ -191,7 +191,7 @@ h2:hover {
 	float:left;
 	width: 42%;
 	padding: 1% 2%;
-	margin: 2%;
+	margin: 2% 0 6% 0;
 }
 #biography {
 	margin: 1em;
@@ -212,7 +212,7 @@ h2:hover {
 	border: .2em solid #000000;
 	text-transform: uppercase;
 	width: 50%;
-	margin: .3em 0 0 .5em;
+	margin: .3em 0 3em .5em;
 	padding: .3em;
 }
 #media:hover {
