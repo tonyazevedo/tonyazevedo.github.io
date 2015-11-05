@@ -33,6 +33,7 @@ a:hover {
 }
 #splash {
 	background-color: #000000;
+	margin: 0 0 4% 0;
 }
 #hero {
 	background:url(../images/tony_mikasa.jpeg) no-repeat;
@@ -112,7 +113,7 @@ footer {
 	background-color: #000000;
 }
 #logos {
-	background-color: #00BFFF;
+	background-color: rgba(0, 191, 255, 0.4);
 }
 #newsletter {
 	display: block;
@@ -120,7 +121,7 @@ footer {
 	padding: 1%;
 	width: 31%;
 	text-align: center;
-	margin: 2% 0 2% 3%;
+	margin: 2% 0 2% 4%;
 }
 #social {
 	display: block;
@@ -133,7 +134,7 @@ footer {
 	float: left;
 	padding: 1%;
 	width: 31%;
-	margin: 2% .5% 2% 3%;
+	margin: 2% 0 2% 4%;
 }
 #bottomnav a {
 	border:.06em solid #FFFFFF;
@@ -153,7 +154,7 @@ footer {
 	display: block;
 	float: left;
 	margin: 1%;
-	padding: 1%;
+	padding: .5%;
 	width: 18%;
 }
 #about {
