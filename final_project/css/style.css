@@ -175,7 +175,6 @@ ul {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.3em;
 	line-height: 1.3em;
-	/*padding: 0 em;*/
 	margin: 0 0 2em 1em;
 }
 h2:hover {
@@ -379,19 +378,25 @@ h4:hover {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2em;
 	text-align: center;
-	padding: 1em 4em;
+	padding: 1.5em 4em;
 }
 .beyondgroups {
 	font-family: 'Noto Serif', serif;
 	font-size: 2em;
-	padding: .5em 0 0 .2em;
+	padding: .5em 0 0 1em;
 	border-bottom: .1em solid #000000;
 }
 .beyondp {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.2em;
-	padding: .2em 0 2em .5em;
-	line-height: 1.6em;
+	padding: .5em 0 1.4em .5em;
+	line-height: 1.7em;
+}
+.djp {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	padding: 0 0 .8em .5em;
+	line-height: 1.7em;
 }
 .beyonda {
 	font-size: 1.8em;
@@ -423,10 +428,11 @@ h4:hover {
 	padding: 4%;
 }
 #djwave {
-	height: 22em;
+	height: 23em;
 	float: left;
 	width: 36%;
-	padding: 2.2em 0 2em 1.5em;
+	padding: 2.5em 0 2em 1em;
+	margin: 1.5em 0 0 0;
 }
 #wpoinfo {
 	float: left;
