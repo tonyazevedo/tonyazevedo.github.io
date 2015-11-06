@@ -33,7 +33,6 @@ a:hover {
 }
 #splash {
 	background-color: #000000;
-	margin: 0 0 4% 0;
 }
 #hero {
 	background:url(../images/tony_mikasa.jpeg) no-repeat;
@@ -58,6 +57,8 @@ a:hover {
 #navboxes {
 	font-family: 'Noto Serif', serif;
 	font-size: 1.5em;
+	background-color: #000000;
+	padding-top: 4%;
 }
 #navboxes a {
 	color: #FFFFFF;
@@ -111,44 +112,36 @@ footer {
 }
 #bottomnav {
 	background-color: #000000;
-}
-#logos {
-	background-color: rgba(0, 191, 255, 0.4);
+	width: 100%;
 }
 #newsletter {
+	border:.06em solid #FFFFFF;
 	display: block;
 	float: left;
-	padding: 1%;
-	width: 31%;
-	text-align: center;
-	margin: 2% 0 2% 4%;
-}
-#social {
-	display: block;
-	float: left;
+	padding: .5% 1%;
 	width: 30%;
-	margin: 2% 0;
+	margin: 1% 2%;
+}
+#social a {
+	display: block;
+	float: left;
+	width: 6%;
+	padding: .5%;
+	margin: 1% 0;
 }
 #contact {
+	border:.06em solid #FFFFFF;
 	display: block;
 	float: left;
-	padding: 1%;
-	width: 31%;
-	margin: 2% 0 2% 4%;
-}
-#bottomnav a {
-	border:.06em solid #FFFFFF;
-	color: #FFFFFF;
-	font-size: 1.2em;
-	text-align: center;
-	padding: 1%;
-	width: 50%;
+	padding: .5% 1%;
+	width: 30%;
+	margin: 1% 2%;
 }
 #bottomnav a:hover {
 	color: #FF0000;
 }
-#social img {
-	padding: 1.4%;
+#logos {
+	background-color: rgba(0, 191, 255, 0.4);
 }
 #logos img {
 	display: block;
