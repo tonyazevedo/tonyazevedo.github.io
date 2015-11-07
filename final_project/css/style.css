@@ -63,6 +63,8 @@ a:hover {
 #navboxes a {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+#navboxes div {
 	border:.06em solid #FFFFFF;
 	display:block;
 	float:left;
@@ -70,6 +72,9 @@ a:hover {
 	text-align:center;
 	width:33.33%;
 	height: 11em;
+}
+#navboxes p {
+	
 }
 #academybox {
 	background-image: url("../images/tony_academy.jpg");
@@ -107,17 +112,52 @@ a:hover {
 	background-size:cover;
 	background-position:center;
 }
+#academybox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
+#overseasbox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
+#oneononebox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
+#gearbox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
+#hababox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
+#blogbox p {
+	width: 10em;
+  	padding: .1em;
+  	margin: .7em .4em 0 0;
+  	background-color: rgba(0, 0, 0, 0.5);
+  	text-align: center;
+}
 #bottomnav {
 	background-color: #000000;
 	width: 100%;
-}
-#newsletter {
-	border:.06em solid #FFFFFF;
-	display: block;
-	float: left;
-	padding: .5% 1%;
-	width: 30%;
-	margin: 1% 2%;
+	padding: 2em 0;
 }
 #social a {
 	display: block;
@@ -126,15 +166,21 @@ a:hover {
 	padding: .5%;
 	margin: 1% 0;
 }
-#contact {
+.contact {
 	border:.06em solid #FFFFFF;
 	display: block;
 	float: left;
-	padding: .5% 1%;
+	padding: .8% 1%;
 	width: 30%;
 	margin: 1% 2%;
+	text-align: center;
 }
-#bottomnav a:hover {
+.contact a {
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+.contact a:hover {
 	color: #FF0000;
 }
 #logos {
@@ -147,13 +193,30 @@ a:hover {
 	padding: .5%;
 	width: 18%;
 }
-.abouthead {
+hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 25em;
+}
+#biography h2 {
+	color: #000000;
+	font-size: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+	margin: 2em 0 .5em .3em;
+}
+#career h2 {
+	color: #000000;
+	font-size: 1.8em;
+	font-family: 'Montserrat', sans-serif;
+	margin: 2em 0 .5em .3em;
+}
+/*.abouthead {
 	color: #000000;
 	font-size: 2em;
 	font-family: 'Montserrat', sans-serif;
-	margin: 2em 0 1em .8em;
-	border-bottom: .1em #000 solid;
-}
+	margin: 2em 0 .5em .5em;
+}*/
 #biography {
 	margin: 1em;
 	font-family: 'Noto Serif', serif;
@@ -181,6 +244,9 @@ h2:hover {
 	width: 42%;
 	padding: 2%;
 	margin: .5% 4% 4% 0;
+}
+#rightside img {
+	width: 100%;
 }
 #headshot {
 	height: 15em;
@@ -467,7 +533,7 @@ h4:hover {
 	width: 30%;
 	padding: 1%;
 	margin: .5%;
-	background-color: #FF0000;
+	background-color: rgba(255, 0, 0, 0.7);
 	height: 44em;
 }
 #motivational {
