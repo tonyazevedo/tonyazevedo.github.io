@@ -13,6 +13,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 }
+header {
+	background-color: #000000;
+	width: 100%;
+	height: 5em;
+}
 h1 {
 	background-color: #000000;
 	color: #FFFFFF;
@@ -33,6 +38,40 @@ nav a {
 }
 a:hover {
 	color: #00BFFF;
+}
+#homepage {
+	display: block;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	float: left;
+	padding: 1%;
+	width: 46%;
+	margin: 1% 0 1.5% 2%;
+}
+#media {
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	width: 46%;
+	margin: 1% 2%;
+	padding: 1%;
+}
+#homepage a {
+	text-decoration: none;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+#media a {
+	text-decoration: none;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+#homepage a:hover {
+	color: #FF0000;
+}
+#media a:hover {
+	color: #FF0000;
 }
 #splash {
 	background-color: #000000;
@@ -194,11 +233,6 @@ a:hover {
 	padding: .5%;
 	width: 18%;
 }
-header {
-	background-color: #000000;
-	width: 100%;
-	height: 5em;
-}
 hr {
 	border: none;
 	height: .15em;
@@ -232,29 +266,6 @@ hr {
 	font-size: 1.2em;
 	line-height: 1.4em;
 }
-ul {
-	color: #000000;
-	line-height: 1.3em;
-	margin: 0 0 2em 0.5em;
-}
-h2:hover {
-	color: #00BFFF;
-}
-#leftside {
-	float: left;
-	width: 46%;
-	padding: .5% 1%;
-	margin: .5% 1%;
-}
-#rightside {
-	float:left;
-	width: 42%;
-	padding: 2%;
-	margin: .5% 4% 4% 0;
-}
-#rightside img {
-	width: 100%;
-}
 #headshot {
 	height: 15em;
 	float: left;
@@ -264,25 +275,16 @@ h2:hover {
 	height: 15em;
 	float: right;
 	margin: .4em 1em .4em .4em;
-
-}
-#media {
-	font-size: 2em;
-	text-decoration: none;
-	color: #FFFFFF;
-	border: .2em solid #000000;
-	text-transform: uppercase;
-	width: 50%;
-	margin: .3em 0 3em .5em;
-	padding: .3em;
-}
-#media:hover {
-	color: #FF0000;
 }
 .careerhead {
-	font-size: 2.2em;
-	padding: 0 0 .3em 0;
+	color: #000000;
+	font-size: 1.8em;
+	margin: 2em 0 .5em .3em;
 	border-bottom: .1em solid #000000;
+}
+.careerhead ul {
+	margin: .5em 0 1.5em 1.7em;
+	line-height: 1.6em;
 }
 h3 {
 	font-size: 1.5em;
@@ -303,11 +305,11 @@ h3 {
 .careerhead:hover {
 	color: #00BFFF;
 }
-#two_column {
+/*#two_column {
 	padding: 1.2em;
-}
+}*/
 #left {
-	padding: 1.2em;
+	padding: .3em 0 .5em 1em;
 	float: left;
 	width: 46%;
 }
