@@ -316,76 +316,87 @@ h3 {
 .proleague:hover {
 	background-color: #00BFFF;
 }
-.clinichead {
-	font-size: 2em;
-	padding: 0 0 .5em 0;
-	border-bottom: medium solid #000000;
+#clinics {
+	margin: 0 0 3em 0;
 }
-#clinicsp {
-	font-size: 1.3em;
-	padding: 1em 0 0 0em;
-	line-height: 1.8em;
+#clinicinfo {
+	display: block;
+	float: left;
+	width: 56%;
+	padding: 1em 0 1em 1em;
+}
+#clinicimg {
+	float: left;
+	width: 40%;
+	margin: 1em 0 0 0;
+}
+#coaching {
+	height: 22em;
+	width: 100%;
+	padding: 1em 0 .5em 0;
 }
 #current {
-	line-height: .8em;
-	padding: .1em 0 .1em 0;
-	margin: .1em .5em 1em 0;
+	margin: .5em 0 2em 0;
+	width: 35em;
 }
-#currenthead {
-	font-size: 1.8em;
-	margin: 0 0 .5em 0;
-}
-#currentinfo {
+#current p {
 	font-style: italic;
-	font-size: 1.3em;
-	margin: 1em 0 2em 0;
 }
-h4 {
-	font-size: 2em;
-	padding: 0;
-	margin: 0;
+#clinicinfo h2 {
+	font-size: 1.8em;
 }
-#academyp {
-	font-size: 1.3em;
-	padding: 1em 0 0 0em;
+#clinicinfo p {
+	font-size: 1.2em;
+	margin: 1em 4em 0 0;
 	line-height: 1.6em;
 }
-.clinichead:hover {
-	color: #00BFFF;
+#clinicinfo h3 {
+	font-size: 1.5em;
+}
+#clinicinfo hr {
+	width: 18em;
+}
+#academyimg {
+	display: block;
+	float: left;
+	width: 40%;
+}
+#tonyacademy {
+	height: 22em;
+	width: 100%;
+	padding: .5em 0 2em 1em;
+}
+#academyinfo {
+	display: block;
+	float: left;
+	width: 56%;
+	padding: 0 0 0 1.5em;
+}
+#academyinfo h2 {
+	font-size: 1.8em;
+}
+#academyinfo p {
+	font-size: 1.2em;
+	padding: .5em 0 0 0;
+	line-height: 1.6em;
+}	
+#academyinfo hr {
+	width: 12em;
 }
 #current:hover {
 	background-color: #00BFFF;
 }
-h4:hover {
-	color: #00BFFF;
+#winter h4 {
+	font-size: 1.5em;
+}
+#summer h4 {
+	font-size: 1.5em;
 }
 .reserve:hover {
 	color: #FF0000;
 }
-#clinicinfo {
-	float: left;
-	width: 60%;
-	padding: 4%;
-}
-#coaching {
-	height: 27em;
-	float: right;
-	width: 36%;
-	padding: 7em .8em 0 0;
-}
-#academyinfo {
-	float: right;
-	width: 60%;
-	padding: 4%;
-}
-#academy {
-	height: 27em;
-	float: left;
-	width: 36%;
-	padding: 4em 0 2em 1em;
-}
 #academies {
-	padding: 1.2em;
+	padding: .8em 1em 2em 1em;
 }
 #winter {
 	padding: 1.2em;
@@ -423,7 +434,7 @@ h4:hover {
 	font-variant: small-caps;
 	font-weight: bold;
 	border: .1em solid #000000;
-	padding: .3em .5em;
+	padding: .2em .5em .3em .5em;
 	margin: 1em 0 0 0;
 	text-decoration: none;
 }
