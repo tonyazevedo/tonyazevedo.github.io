@@ -276,45 +276,40 @@ hr {
 	float: right;
 	margin: .4em 1em .4em .4em;
 }
-.careerhead {
+#accolades {
+	font-size: 1.2em;
+	margin: 1em 0 1em 1.5em;
+	line-height: 1.8em;
+}	
+#accoladehead {
 	color: #000000;
 	font-size: 1.8em;
 	margin: 2em 0 .5em .3em;
 	border-bottom: .1em solid #000000;
 }
-.careerhead ul {
-	margin: .5em 0 1.5em 1.7em;
-	line-height: 1.6em;
+#prohead {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 2em 0 0 0;
+	border-bottom: .1em solid #000000;
 }
 h3 {
 	font-size: 1.5em;
-	padding: 1.4em 0 .5em 0;
+	padding: .8em 0 .8em 0;
 }
-#accolades {
-	padding: 1.5em 0 0 .2em;
-	line-height: 2em;
-	font-size: 1.4em;
-}
-#accolight:hover {
+#accolades:hover {
 	background-color: #FFD700;
 }
 .profcont {
 	font-size: 1.2em;
-	padding: .4em 0 .5em 0;
+	padding: .3em 0 .5em 0;
 }
-.careerhead:hover {
-	color: #00BFFF;
-}
-/*#two_column {
-	padding: 1.2em;
-}*/
 #left {
-	padding: 0 0 .5em 1em;
+	margin: 0 0 0 1.5em;
 	float: left;
 	width: 46%;
 }
 #right {
-	padding: 1.2em;
 	float: right;
 	width: 46%;
 }
