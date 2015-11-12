@@ -39,15 +39,13 @@ a:hover {
 	text-transform: uppercase;
 	float: left;
 	padding: 1%;
-	width: 46%;
 	margin: .5em 0 .5em 1em;
 }
 #media {
 	display: block;
-	float: left;
+	float: right;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	width: 46%;
 	margin: .5em 0 .5em 4em;
 	padding: 1%;
 }
@@ -193,10 +191,14 @@ a:hover {
 	width: 100%;
 	padding: 2em 0;
 }
+#social {
+	width: 32%;
+	float: left;
+}
 #social a {
 	display: block;
 	float: left;
-	width: 6%;
+	width: 20%;
 	padding: .5%;
 	margin: 1% 0;
 }
@@ -280,18 +282,22 @@ a:hover {
 /*Career Page*/
 #accolades {
 	font-size: 1.2em;
-	margin: 1.4em 0 2.3em 1.5em;
+	margin: 0 0 1.5em;
 	line-height: 1.8em;
+	padding: .8em;
 }	
+#accolades ul {
+	list-style-position: inside;
+}
 #accoladehead {
 	color: #000000;
 	font-size: 1.8em;
-	margin: 2em 0 0 .1em;
+	margin: 1em 0 0 .1em;
 }
 #prohead {
 	color: #000000;
 	font-size: 1.8em;
-	margin: 2em 0 0 .1em;
+	margin: 1em 0 0 .1em;
 }
 #teamusa hr {
 	border: none;
