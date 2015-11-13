@@ -46,7 +46,7 @@ a:hover {
 	float: right;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	margin: .5em 0 .5em 4em;
+	margin: .5em 1.8em .5em 4em;
 	padding: 1%;
 }
 #homepage a {
@@ -235,7 +235,7 @@ a:hover {
 	height: .15em;
 	background-color: #000000;
 	width: 63em;
-	margin: 0 1% .5% .8%;
+	margin: .3em 0 .5em .4em;
 }
 #biography h2 {
 	color: #000000;
@@ -259,7 +259,7 @@ a:hover {
 	height: .15em;
 	background-color: #000000;
 	width: 63em;
-	margin: .3em 1% .5% .8%;
+	margin: .3em 0 .5em .5em;
 }
 .content {
 	margin: .5em 0 2em 0;
@@ -297,21 +297,21 @@ a:hover {
 #prohead {
 	color: #000000;
 	font-size: 1.8em;
-	margin: 1em 0 0 .1em;
+	margin: 1em 0 0 0;
 }
 #teamusa hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 31em;
-	margin: .3em 1% .5% .8%;
+	margin: .3em 0 .5em .3em;
 }
 #profleague hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 35em;
-	margin: .3em 1% .5% .8%;
+	margin: .3em 0 .5em 0;
 }
 #profleague h3 {
 	font-size: 1.5em;
@@ -323,13 +323,13 @@ a:hover {
 #mediatwo {
 	color: #000000;
 	text-transform: uppercase;
-	margin: 6em 0 0 .3em;
+	margin: 8em 0 0 .3em;
 }
 #mediatwo a {
 	text-decoration: none;
 	font-size: 2.5em;
 	color: #000000;
-	border: .08em solid #000000;
+	border: .1em solid #000000;
 	padding: .5em 1em;
 }
 #mediatwo a:hover {
@@ -361,7 +361,7 @@ a:hover {
 	display: block;
 	float: left;
 	width: 56%;
-	padding: 1em 0 1em 1em;
+	padding: 1.5em 0 1em 1.4em;
 }
 #clinicimg {
 	float: left;
@@ -374,28 +374,31 @@ a:hover {
 	padding: 1em 0 .5em 0;
 }
 #current {
-	margin: .5em 0 2em 0;
+	margin: 1.2em 0 2em 0;
 	width: 35em;
 }
 #current p {
 	font-style: italic;
+	margin: 0 0 0 .3em;
 }
 #clinicinfo h2 {
 	font-size: 1.8em;
+	margin: 0 0 0 .3em;
 }
 #clinicinfo p {
 	font-size: 1.2em;
-	margin: 1em 4em 0 0;
+	margin: 1em 4em 0 .3em;
 	line-height: 1.6em;
 }
 #clinicinfo h3 {
 	font-size: 1.5em;
+	margin: 0 0 0 .3em;
 }
 #clinicinfo hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	margin: 0 1% .5% .8%;
+	margin: 0 1% .5% .6em;
 	width: 18em;
 }
 #academyimg {
@@ -474,6 +477,16 @@ a:hover {
 	color: #FF0000;
 	font-size: 1em;
 }
+#reservetop {
+	color: #FF0000;
+	font-size: 2.2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: .1em solid #000000;
+	padding: .2em .5em .3em .5em;
+	margin: 1em 0 0 .2em;
+	text-decoration: none;
+}
 .reserve {
 	color: #FF0000;
 	font-size: 2.2em;
@@ -484,6 +497,7 @@ a:hover {
 	margin: 1em 0 0 0;
 	text-decoration: none;
 }
+/*Beyond The Pool Page*/
 #beyondhead {
 	background-color: #FFFFFF;
 	color: #000000;
@@ -491,56 +505,95 @@ a:hover {
 	text-align: center;
 	padding: 1.5em 4em;
 }
-.beyondgroups {
-	font-size: 2em;
-	padding: .5em 0 0 1em;
-	border-bottom: .1em solid #000000;
+#azevedo h2 {
+	font-size: 1.8em;
+	margin: .5em 0 0 1.1em;
 }
-.beyondp {
+#azevedo p {
 	font-size: 1.2em;
-	padding: .5em 0 1.4em .5em;
+	margin: 0 0 2em .5em;
 	line-height: 1.7em;
 }
-.djp {
-	font-size: 1.2em;
-	padding: 0 0 .8em .5em;
-	line-height: 1.7em;
+#azevedo hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 75em;
+	margin: .3em 0 .5em 2em;
 }
-.beyonda {
+#azevedo a {
 	font-size: 1.8em;
 	text-decoration: none;
-	color: #000000;
-	padding: 0 0 0 .3em;
-}
-.beyondgroups:hover {
-	color: #00BFFF;
-}
-.beyonda:hover {
 	color: #FF0000;
+	margin: 0 0 0 .3em;
+}
+#globalwave h2 {
+	font-size: 1.8em;
+	margin: 1.5em 0 0 1.1em;
+}
+#globalwave p {
+	font-size: 1.2em;
+	margin: 0 .5em 1em 0;
+	line-height: 1.7em;
+}
+#globalwave hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 75em;
+	margin: .3em 0 .5em 2em;
+}
+#globalwave a {
+	font-size: 1.8em;
+	text-decoration: none;
+	color: #FF0000;
+	margin: .5em 0 0 0;
+}
+#wpo h2 {
+	font-size: 1.8em;
+	margin: 2em 0 0 1.1em;
+}
+#wpo p {
+	font-size: 1.2em;
+	/*padding: 0 0 .8em .5em;*/
+	line-height: 1.7em;
+	margin: 0 0 1.5em .5em;
+}
+#wpo hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 75em;
+	margin: .3em 0 .5em 2em;
+}
+#wpo a {
+	font-size: 1.8em;
+	text-decoration: none;
+	color: #FF0000;
+	padding: 0 0 0 .3em;
 }
 #awpinfo {
 	float: left;
-	width: 60%;
-	padding: 2em 0 0 1.5em;
+	width: 58%;
+	margin: 2em 0 0 1.5em;
 	line-height: 1.8em;
 }
 #jacks {
-	height: 22em;
+	height: 18em;
 	float: right;
-	width: 36%;
-	padding: 4%;
+	width: 34%;
+	margin: 2em 2.2em .5em 0;
 }
 #djinfo {
 	float: right;
 	width: 60%;
-	padding: 4%;
+	margin: 1.8em 1em 1em 0;
 }
 #djwave {
-	height: 23em;
+	height: 18em;
 	float: left;
-	width: 36%;
-	padding: 2.5em 0 2em 1em;
-	margin: 1.5em 0 0 0;
+	width: 34%;
+	margin: 2em 0 0 2em;
 }
 #wpoinfo {
 	float: left;
@@ -548,11 +601,12 @@ a:hover {
 	padding: 2em 0 0 1.5em;
 }
 #founders {
-	height: 20em;
+	height: 18em;
 	float: right;
-	width: 36%;
-	padding: 4%;
+	width: 34%;
+	margin: 2em 2em 0 .8em;
 }
+/*One on One Page*/
 .onehead {
 	font-size: 2.2em;
 	padding: 0em .05em .1em .05em;
