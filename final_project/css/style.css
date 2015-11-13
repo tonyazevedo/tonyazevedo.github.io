@@ -105,9 +105,6 @@ a:hover {
 	width:33.33%;
 	height: 11em;
 }
-#navboxes p {
-	
-}
 #academybox {
 	background-image: url("../images/tony_academy.jpg");
 	background-repeat: no-repeat;
@@ -230,17 +227,20 @@ a:hover {
 	width: 18%;
 }
 /*About Page*/
+.content {
+	margin: .5em 0 2em 0;
+}
+#biography h2 {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 2em 0 .5em .3em;
+}
 #biography hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 63em;
 	margin: .3em 0 .5em .4em;
-}
-#biography h2 {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 2em 0 .5em .3em;
 }
 #career {
 	margin: 0 0 2em 0;
@@ -261,9 +261,6 @@ a:hover {
 	width: 63em;
 	margin: .3em 0 .5em .5em;
 }
-.content {
-	margin: .5em 0 2em 0;
-}
 #biography, #career {
 	margin: 1em;
 	font-size: 1.2em;
@@ -280,6 +277,23 @@ a:hover {
 	margin: .4em 1em .4em .4em;
 }
 /*Career Page*/
+#accoladehead {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 1em 0 0 .1em;
+}
+#teamusa {
+	margin: 0 0 0 1.5em;
+	float: left;
+	width: 46%;
+}
+#teamusa hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 31em;
+	margin: .3em 0 .5em .3em;
+}
 #accolades {
 	font-size: 1.2em;
 	margin: 0 0 1.5em;
@@ -289,22 +303,12 @@ a:hover {
 #accolades ul {
 	list-style-position: inside;
 }
-#accoladehead {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 .1em;
+#accolades:hover {
+	background-color: #FFD700;
 }
-#prohead {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 0;
-}
-#teamusa hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 31em;
-	margin: .3em 0 .5em .3em;
+#profleague h3 {
+	font-size: 1.5em;
+	padding: .8em 0 .8em 0;
 }
 #profleague hr {
 	border: none;
@@ -313,9 +317,10 @@ a:hover {
 	width: 35em;
 	margin: .3em 0 .5em 0;
 }
-#profleague h3 {
-	font-size: 1.5em;
-	padding: .8em 0 .8em 0;
+#prohead {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 1em 0 0 0;
 }
 #proimage {
 	margin: 2em 0 0 0;
@@ -335,18 +340,6 @@ a:hover {
 #mediatwo a:hover {
 	color: #FF0000;
 }
-#accolades:hover {
-	background-color: #FFD700;
-}
-.profcont {
-	font-size: 1.2em;
-	padding: .3em 0 .5em 0;
-}
-#teamusa {
-	margin: 0 0 0 1.5em;
-	float: left;
-	width: 46%;
-}
 #profleague {
 	float: right;
 	width: 46%;
@@ -354,6 +347,11 @@ a:hover {
 .proleague:hover {
 	background-color: #00BFFF;
 }
+.profcont {
+	font-size: 1.2em;
+	padding: .3em 0 .5em 0;
+}
+/*Clinics Page*/
 #clinics {
 	margin: 0 0 3em 0;
 }
@@ -362,24 +360,6 @@ a:hover {
 	float: left;
 	width: 56%;
 	padding: 1.5em 0 1em 1.4em;
-}
-#clinicimg {
-	float: left;
-	width: 40%;
-	margin: 1em 0 0 0;
-}
-#coaching {
-	height: 22em;
-	width: 100%;
-	padding: 1em 0 .5em 0;
-}
-#current {
-	margin: 1.2em 0 2em 0;
-	width: 35em;
-}
-#current p {
-	font-style: italic;
-	margin: 0 0 0 .3em;
 }
 #clinicinfo h2 {
 	font-size: 1.8em;
@@ -400,6 +380,27 @@ a:hover {
 	background-color: #000000;
 	margin: 0 1% .5% .6em;
 	width: 18em;
+}
+#current {
+	margin: 1.2em 0 2em 0;
+	width: 35em;
+}
+#current p {
+	font-style: italic;
+	margin: 0 0 0 .3em;
+}
+#current:hover {
+	background-color: #00BFFF;
+}
+#clinicimg {
+	float: left;
+	width: 40%;
+	margin: 1em 0 0 0;
+}
+#coaching {
+	height: 22em;
+	width: 100%;
+	padding: 1em 0 .5em 0;
 }
 #academyimg {
 	display: block;
@@ -431,15 +432,6 @@ a:hover {
 	background-color: #000000;
 	width: 12em;
 }
-#current:hover {
-	background-color: #00BFFF;
-}
-#winter h4 {
-	font-size: 1.8em;
-}
-#summer h4 {
-	font-size: 1.8em;
-}
 .reserve:hover {
 	color: #FF0000;
 }
@@ -456,21 +448,27 @@ a:hover {
 	float: right;
 	width: 46%;
 }
+#winter p {
+	font-size: 1.2em;
+	padding: 1em 0 2em 0;
+	line-height: 1.3em;
+}
+#summer p {
+	font-size: 1.2em;
+	padding: 1em 0 3em 0;
+	line-height: 1.3em;
+}
+#winter h4 {
+	font-size: 1.8em;
+}
+#summer h4 {
+	font-size: 1.8em;
+}
 #winter:hover {
 	background-color: #FFD700;
 }
 #summer:hover {
 	background-color: #FFD700;
-}
-#winp {
-	font-size: 1.2em;
-	padding: 1em 0 2em 0;
-	line-height: 1.3em;
-}
-#sump {
-	font-size: 1.2em;
-	padding: 1em 0 3em 0;
-	line-height: 1.3em;
 }
 #list {
 	color: #FF0000;
