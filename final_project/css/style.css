@@ -429,17 +429,16 @@ a:hover {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	/*margin: 0 1% .5% .8%;*/
 	width: 12em;
 }
 #current:hover {
 	background-color: #00BFFF;
 }
 #winter h4 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 #summer h4 {
-	font-size: 1.5em;
+	font-size: 1.8em;
 }
 .reserve:hover {
 	color: #FF0000;
@@ -529,7 +528,7 @@ a:hover {
 }
 #globalwave h2 {
 	font-size: 1.8em;
-	margin: 1.5em 0 0 1.1em;
+	margin: 1em 0 0 1.1em;
 }
 #globalwave p {
 	font-size: 1.2em;
@@ -555,9 +554,8 @@ a:hover {
 }
 #wpo p {
 	font-size: 1.2em;
-	/*padding: 0 0 .8em .5em;*/
 	line-height: 1.7em;
-	margin: 0 0 1.5em .5em;
+	margin: .2em .4em 1.5em .5em;
 }
 #wpo hr {
 	border: none;
@@ -570,7 +568,7 @@ a:hover {
 	font-size: 1.8em;
 	text-decoration: none;
 	color: #FF0000;
-	padding: 0 0 0 .3em;
+	margin: 0 0 0 .4em;
 }
 #awpinfo {
 	float: left;
@@ -598,7 +596,7 @@ a:hover {
 #wpoinfo {
 	float: left;
 	width: 60%;
-	padding: 2em 0 0 1.5em;
+	margin: 1.5em 0 3em 1.4em;
 }
 #founders {
 	height: 18em;
@@ -607,17 +605,17 @@ a:hover {
 	margin: 2em 2em 0 .8em;
 }
 /*One on One Page*/
-.onehead {
-	font-size: 2.2em;
-	padding: 0em .05em .1em .05em;
+#private h2 {
+	font-size: 2em;
+	margin: 1em .5em .2em .5em;
 	text-align: center;
 }
-.onep {
+#private p {
 	font-size: 1.5em;
-	margin: 1em .1em;
-	line-height: 1.4em;
+	margin: 1em .3em;
+	line-height: 1.6em;
 }
-.onea {
+#private a {
 	text-decoration: none;
 	color: #000000;
 	font-size: 2em;
@@ -625,51 +623,101 @@ a:hover {
 	font-weight: bold;
 	border: .1em solid #000000;
 	padding: .2em .5em;
-	margin: 1em auto;
+	margin: 3em 0 2em 3em;
 }
-#onecontainer {
-	width: 95%;
-	margin: .8em auto;
-	text-align: left;
+#private hr {
+	border: none;
+	height: .18em;
+	background-color: #000000;
+	width: 15em;
+	margin: 0 0 0 5em;
+}
+#motivational h2 {
+	font-size: 2em;
+	margin: 1em .5em .2em .5em;
+	text-align: center;
+}
+#motivational p {
+	font-size: 1.5em;
+	margin: 1em .3em;
+	line-height: 1.6em;
+}
+#motivational a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: .1em solid #000000;
+	padding: .2em .5em;
+	margin: 3em 0 2em 3em;
+}
+#motivational hr {
+	border: none;
+	height: .18em;
+	background-color: #000000;
+	width: 22em;
+	margin: 0 0 0 2em;
+}
+#consulting h2 {
+	font-size: 2em;
+	margin: 1em .5em .2em .5em;
+	text-align: center;
+}
+#consulting p {
+	font-size: 1.5em;
+	margin: 1em .3em;
+	line-height: 1.6em;
+}
+#consulting a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: .1em solid #000000;
+	padding: .2em .5em;
+	margin: 3em 0 2em 3em;
+}
+#consulting hr {
+	border: none;
+	height: .18em;
+	background-color: #000000;
+	width: 10em;
+	margin: 0 0 0 7.5em;
 }
 #private {
 	float: left;
-	width: 30%;
-	padding: 1%;
-	margin: .5%;
+	width: 32%;
 	background-color: rgba(255, 0, 0, 0.7);
-	height: 44em;
+	height: 46em;
+	margin: 1.5em .3em 0 .3em;
 }
 #motivational {
 	float: left;
-	width: 30%;
-	padding: 1%;
-	margin: .5%;
+	width: 33%;
 	background-color: #00BFFF;
-	height: 44em;
+	height: 46em;
+	margin: 1.5em .3em 0 .3em;
 }
 #consulting {
 	float: left;
-	width: 30%;
-	padding: 1%;
-	margin: .5%;
+	width: 32%;
 	background-color: #FFFF00;
-	height: 44em;
+	height: 46em;
+	margin: 1.5em .3em 0 .3em;
 }
 #one {
 	height: 12em;
-	margin: 0 auto 1.5em;
+	margin: 0 0 2em 3.5em;
 }
 #interview {
-	height: 10em;
-	margin: 0 auto 1.5em;
+	height: 12em;
+	margin: 0 0 2em 4.5em;
 }
 #elton {
-	height: 10em;
-	margin .5em;
-}
-#motivatecen {
-	text-align: center;
+	height: 12em;
+	margin: 0 0 2em 4.5em;
 }
 .clearfix:after { 
 	visibility: hidden; 
