@@ -200,15 +200,15 @@ a:hover {
 	margin: 1% 0;
 }
 .contact {
-	border:.06em solid #FFFFFF;
 	display: block;
+	font-variant: small-caps;
 	float: left;
-	padding: .8% 1%;
 	width: 30%;
-	margin: 1% 2%;
+	margin: 0 1em 1em 1em;
 	text-align: center;
 }
 .contact a {
+	font-size: 1.8em;
 	float: none;
 	width: 100%;
 	padding: 0;
@@ -247,9 +247,6 @@ a:hover {
 	width: 75em;
 	margin: 0 0 .5em 1.7em;
 }
-#career {
-	margin: 0 0 2em 0;
-}
 #career h2 {
 	color: #000000;
 	font-size: 1.8em;
@@ -278,15 +275,15 @@ a:hover {
 	margin: 1.2em 2em .4em 0;
 }
 /*Career Page*/
-#accoladehead {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 .1em;
-}
 #teamusa {
 	margin: 0 0 0 1.5em;
 	float: left;
 	width: 46%;
+}
+#teamusa h2 {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 1em 0 0 .1em;
 }
 #teamusa hr {
 	border: none;
@@ -295,33 +292,39 @@ a:hover {
 	width: 31em;
 	margin: .3em 0 .5em .3em;
 }
-#accolades {
+#teamusa ul {
 	font-size: 1.2em;
 	margin: 0 0 1.5em;
 	line-height: 1.8em;
 	padding: .8em;
+	list-style-position: inside
 }	
-#accolades ul {
-	list-style-position: inside;
-}
-#accolades:hover {
+#teamusa ul:hover {
 	background-color: #FFD700;
+}
+#profleague {
+	float: right;
+	width: 46%;
+}
+#profleague h2 {
+	color: #000000;
+	font-size: 1.8em;
+	margin: 1em 0 0 0;
 }
 #profleague h3 {
 	font-size: 1.5em;
 	padding: .8em 0 .8em 0;
 }
+#profleague p {
+	font-size: 1.2em;
+	margin: .3em 1.5em .5em 0;
+}
 #profleague hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 35em;
+	width: 34em;
 	margin: .3em 0 .5em 0;
-}
-#prohead {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 0;
 }
 #proimage {
 	margin: 2em 0 0 0;
@@ -341,16 +344,9 @@ a:hover {
 #mediatwo a:hover {
 	color: #FF0000;
 }
-#profleague {
-	float: right;
-	width: 46%;
-}
 .proleague:hover {
 	background-color: #00BFFF;
-}
-.profcont {
-	font-size: 1.2em;
-	padding: .3em 0 .5em 0;
+	width: 34em;
 }
 /*Clinics Page*/
 #clinics {
@@ -516,7 +512,7 @@ a:hover {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 75em;
+	width: 74em;
 	margin: .3em 0 .5em 2em;
 }
 #azevedo a {
@@ -531,14 +527,14 @@ a:hover {
 }
 #globalwave p {
 	font-size: 1.2em;
-	margin: 0 .5em 1em 0;
+	margin: 0 1em 1em 0;
 	line-height: 1.7em;
 }
 #globalwave hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 75em;
+	width: 74em;
 	margin: .3em 0 .5em 2em;
 }
 #globalwave a {
@@ -560,7 +556,7 @@ a:hover {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 75em;
+	width: 74em;
 	margin: .3em 0 .5em 2em;
 }
 #wpo a {
