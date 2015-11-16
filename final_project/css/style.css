@@ -10,7 +10,6 @@ body {
 header {
 	background-color: #000000;
 	width: 100%;
-	height: 5em;
 }
 h1 {
 	background-color: #000000;
@@ -27,7 +26,7 @@ nav a {
 	display: block;
 	float: left;
 	padding: 2%;
-	width: 22%;
+	width: 25%;
 	text-align: center;
 }
 a:hover {
@@ -39,30 +38,22 @@ a:hover {
 	text-transform: uppercase;
 	float: left;
 	padding: 1%;
-	margin: .5em 0 .5em 1em;
+	margin: .5em 0 .5em 1.5em;
 }
 #media {
 	display: block;
 	float: right;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	margin: .5em 1.8em .5em 4em;
+	margin: .5em 2em .5em 5em;
 	padding: 1%;
 }
-#homepage a {
+#homepage a, #media a {
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #FFFFFF;
 }
-#media a {
-	text-decoration: none;
-	font-size: 2em;
-	color: #FFFFFF;
-}
-#homepage a:hover {
-	color: #FF0000;
-}
-#media a:hover {
+#homepage a:hover, #media a:hover {
 	color: #FF0000;
 }
 #splash {
@@ -141,79 +132,35 @@ a:hover {
 	background-size:cover;
 	background-position:center;
 }
-#academybox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
-}
-#overseasbox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
-}
-#oneononebox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
-}
-#gearbox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
-}
-#hababox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
-}
-#blogbox p {
-	width: 10em;
-  	padding: .1em;
-  	margin: .7em .4em 0 0;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	text-align: center;
+#navboxes p {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 1% 4%;
 }
 #bottomnav {
 	background-color: #000000;
 	width: 100%;
-	padding: 2em 0;
+	padding: 2% 0 3% 0;
 }
 #social {
-	width: 32%;
+	width: 33.33%;
 	float: left;
+	padding: 2% 0 0 0;
 }
 #social a {
 	display: block;
 	float: left;
 	width: 20%;
 	padding: .5%;
-	margin: 1% 0;
 }
 .contact {
-	display: block;
+	display: inline-block;
+	font-size: 1.5em;
 	font-variant: small-caps;
 	float: left;
-	width: 30%;
-	margin: 0 1em 1em 1em;
-	text-align: center;
+	width: 33.33%;
 }
-.contact a {
-	font-size: 1.8em;
-	float: none;
-	width: 100%;
-	padding: 0;
-}
-.contact a:hover {
+.contact:hover {
 	color: #FF0000;
 }
 #logos {
@@ -227,52 +174,43 @@ a:hover {
 	width: 18%;
 }
 /*About Page*/
-.content {
-	margin: .5em 0 2em 0;
+.content { 
+	width: 75em;
+	margin: auto;
 }
-#biography h2 {
+#biography h2, #career h2 {
 	color: #000000;
-	font-size: 1.8em;
-	margin: 1.5em 0 .1em 1em;
+	font-size: 1.5em;
+	margin: 1.5em 0 .1em 0;
 }
 #biography p {
-	margin: 1em 1.2em 1em 1.3em;
-	font-size: 1.2em;
+	margin: 1em 0;
+	font-size: 1em;
 	line-height: 1.4em;
 } 
-#biography hr {
+#biography hr, #career hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 75em;
-	margin: 0 0 .5em 1.7em;
-}
-#career h2 {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1.5em 0 .1em 1em;
+	margin: 0 0 .5em 0;
 }
 #career ul {
-	margin: 1em 1.2em 1em 2.5em;
-	line-height: 1.6em;
-	font-size: 1.2em;
+	margin: 1em 0 2em 1em;
+	font-size: 1em;
 }
-#career hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 75em;
-	margin: 0 0 .5em 1.7em;
+#career li {
+	margin: .5em;
 }
 #headshot {
-	height: 15em;
+	width: 20em;
 	float: left;
-	margin: .4em 1em .4em 1.6em;
+	margin: .5em 1em .5em 0;
 }
 #cheer {
-	height: 15em;
+	width: 20em;
 	float: right;
-	margin: 1.2em 2em .4em 0;
+	margin: 2em 0 1em 0;
 }
 /*Career Page*/
 #teamusa {
