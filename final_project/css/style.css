@@ -213,78 +213,58 @@ a:hover {
 	margin: 2em 0 1em 0;
 }
 /*Career Page*/
-#teamusa {
-	margin: 0 0 0 1.5em;
+.usaprof {
 	float: left;
-	width: 46%;
+	width: 50%;
+	padding: 2%;
 }
-#teamusa h2 {
+.usaprof h2 {
 	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 .1em;
+	font-size: 1.5em;
+	margin: 1em 0 0 0;
 }
-#teamusa hr {
+.usaprof hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 31em;
-	margin: .3em 0 .5em .3em;
+	width: 35em;
+	margin: 0 0 .5em 0;
 }
-#teamusa ul {
-	font-size: 1.2em;
+.usaprof ul {
+	font-size: 1em;
 	margin: 0 0 1.5em;
 	line-height: 1.8em;
 	padding: .8em;
 	list-style-position: inside
 }	
-#teamusa ul:hover {
-	background-color: #FFD700;
+.usaprof h3 {
+	float: left;
+	font-size: 1em;
+	padding: 1em 0 0 0;
+	display: inline-block;
 }
-#profleague {
-	float: right;
-	width: 46%;
+.usaprof p {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	clear: both;
 }
-#profleague h2 {
-	color: #000000;
-	font-size: 1.8em;
-	margin: 1em 0 0 0;
+.proleague img {
+	float: left;
+	width: 5em;
 }
-#profleague h3 {
-	font-size: 1.5em;
-	padding: .8em 0 .8em 0;
+#careerimage {
+	margin: .5em 0 0 0;
+	width: 35em;
 }
-#profleague p {
-	font-size: 1.2em;
-	margin: .3em 1.5em .5em 0;
-}
-#profleague hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 34em;
-	margin: .3em 0 .5em 0;
-}
-#proimage {
-	margin: 2em 0 0 0;
-}
-#mediatwo {
-	color: #000000;
-	text-transform: uppercase;
-	margin: 8em 0 0 .3em;
-}
-#mediatwo a {
+#clinicad {
+	color: #000;
+	border: 3px solid #000;
+	display: inline-block;
+	font-size: 2em;
+	font-variant: small-caps;
+	padding: 1%;
+	margin: 2em 0 0 4em;
 	text-decoration: none;
-	font-size: 2.5em;
-	color: #000000;
-	border: .1em solid #000000;
-	padding: .5em 1em;
-}
-#mediatwo a:hover {
-	color: #FF0000;
-}
-.proleague:hover {
-	background-color: #00BFFF;
-	width: 34em;
 }
 /*Clinics Page*/
 #clinics {
