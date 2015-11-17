@@ -175,7 +175,7 @@ a:hover {
 }
 /*About Page*/
 .content { 
-	width: 75em;
+	width: 72em;
 	margin: auto;
 }
 #biography h2, #career h2 {
@@ -267,123 +267,41 @@ a:hover {
 	text-decoration: none;
 }
 /*Clinics Page*/
+.reserve {
+	color: #FF0000;
+	font-size: 2em;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: .1em solid #000000;
+	padding: .2em .5em;
+	margin: 1em 0 0 0;
+	text-decoration: none;
+}
 #clinics {
-	margin: 0 0 3em 0;
+	margin: 2em 0 3em 0;
+}
+#academies {
+	margin: 2em 0 3em 0;
 }
 #clinicinfo {
 	display: block;
 	float: left;
-	width: 56%;
-	padding: 1.5em 0 1em 1.4em;
-}
-#clinicinfo h2 {
-	font-size: 1.8em;
-	margin: 0 0 0 .3em;
-}
-#clinicinfo p {
-	font-size: 1.2em;
-	margin: 1em 4em 0 .3em;
-	line-height: 1.6em;
-}
-#clinicinfo h3 {
-	font-size: 1.5em;
-	margin: 0 0 0 .3em;
-}
-#clinicinfo hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	margin: 0 1% .5% .6em;
-	width: 18em;
-}
-#current {
-	margin: 1.2em 0 2em 0;
-	width: 35em;
-}
-#current p {
-	font-style: italic;
-	margin: 0 0 0 .3em;
-}
-#current:hover {
-	background-color: #00BFFF;
-}
-#clinicimg {
-	float: left;
-	width: 40%;
-	margin: 1em 0 0 0;
-}
-#coaching {
-	height: 22em;
-	width: 100%;
-	padding: 1em 0 .5em 0;
-}
-#academyimg {
-	display: block;
-	float: left;
-	width: 40%;
-}
-#tonyacademy {
-	height: 22em;
-	width: 100%;
-	padding: .5em 0 2em 1em;
+	width: 65%;
 }
 #academyinfo {
 	display: block;
 	float: left;
-	width: 56%;
-	padding: 0 0 0 1.5em;
+	width: 65%;
+	padding: 0 0 0 1em;
 }
-#academyinfo h2 {
-	font-size: 1.8em;
+#current {
+	font-style: italic;
+	margin: 0 0 1.5em 0;
 }
-#academyinfo p {
-	font-size: 1.2em;
-	padding: .5em 0 0 0;
-	line-height: 1.6em;
-}	
-#academyinfo hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 12em;
-}
-.reserve:hover {
-	color: #FF0000;
-}
-#academies {
-	padding: .8em 1em 2em 1em;
-}
-#winter {
-	padding: 1.2em;
+#coaching, #tonyacademy {
+	display: block;
 	float: left;
-	width: 46%;
-}
-#summer {
-	padding: 1.2em;
-	float: right;
-	width: 46%;
-}
-#winter p {
-	font-size: 1.2em;
-	padding: 1em 0 2em 0;
-	line-height: 1.3em;
-}
-#summer p {
-	font-size: 1.2em;
-	padding: 1em 0 3em 0;
-	line-height: 1.3em;
-}
-#winter h4 {
-	font-size: 1.8em;
-}
-#summer h4 {
-	font-size: 1.8em;
-}
-#winter:hover {
-	background-color: #FFD700;
-}
-#summer:hover {
-	background-color: #FFD700;
+	width: 35%;
 }
 #list {
 	color: #FF0000;
@@ -391,23 +309,64 @@ a:hover {
 }
 #reservetop {
 	color: #FF0000;
-	font-size: 2.2em;
+	font-size: 2em;
 	font-variant: small-caps;
 	font-weight: bold;
 	border: .1em solid #000000;
-	padding: .2em .5em .3em .5em;
-	margin: 1em 0 0 .2em;
+	padding: .2em .5em;
+	margin: 3em 0;
 	text-decoration: none;
 }
-.reserve {
-	color: #FF0000;
-	font-size: 2.2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: .1em solid #000000;
-	padding: .2em .5em .3em .5em;
+#winter, #summer {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+#clinicinfo h2, #academyinfo h2 {
+	font-size: 1.5em;
+}
+#clinicinfo p {
+	font-size: 1em;
+	line-height: 1.6em;
+	padding: 0 4em 0 0;
+}
+#clinicinfo h3 {
+	font-size: 1.5em;
 	margin: 1em 0 0 0;
-	text-decoration: none;
+}
+#clinicinfo hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 15em;
+	margin: 0 0 .5em 0;
+}
+#academyinfo hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 10em;
+	margin: 0 0 .5em 0;
+}
+#academyinfo p {
+	font-size: 1em;
+	line-height: 1.6em;
+}	
+#winter h4, #summer h4 {
+	font-size: 1.5em;
+}
+#winter p {
+	font-size: 1em;
+	line-height: 1.6em;
+	margin: .5em 0 1.5em 0;
+}
+#summer p {
+	font-size: 1em;
+	line-height: 1.6em;
+	margin: .5em 4em 4.5em 0;
+}
+#reservetop:hover {
+	color: #00BFFF;
 }
 /*Beyond The Pool Page*/
 #beyondhead {
