@@ -178,6 +178,16 @@ a:hover {
 	width: 72em;
 	margin: auto;
 }
+#headshot {
+	width: 20em;
+	float: left;
+	margin: .5em 1em .5em 0;
+}
+#cheer {
+	width: 20em;
+	float: right;
+	margin: 2em 0 1em 0;
+}
 #biography h2, #career h2 {
 	color: #000000;
 	font-size: 1.5em;
@@ -202,59 +212,56 @@ a:hover {
 #career li {
 	margin: .5em;
 }
-#headshot {
-	width: 20em;
-	float: left;
-	margin: .5em 1em .5em 0;
-}
-#cheer {
-	width: 20em;
-	float: right;
-	margin: 2em 0 1em 0;
-}
 /*Career Page*/
-.usaprof {
+#usacareer, #profcareer {
 	float: left;
 	width: 50%;
-	padding: 2%;
 }
-.usaprof h2 {
+#usacareer h2, #profcareer h2 {
 	color: #000000;
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
 }
-.usaprof hr {
+#usacareer hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 32em;
+	margin: 0 0 .5em 0;
+}
+#profcareer hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 35em;
 	margin: 0 0 .5em 0;
 }
-.usaprof ul {
+#usacareer ul {
 	font-size: 1em;
 	margin: 0 0 1.5em;
 	line-height: 1.8em;
 	padding: .8em;
 	list-style-position: inside
 }	
-.usaprof h3 {
+#profcareer h3 {
 	float: left;
 	font-size: 1em;
 	padding: 1em 0 0 0;
 	display: inline-block;
 }
-.usaprof p {
+#profcareer p {
 	font-size: 1em;
 	margin: 0 0 1em 0;
 	clear: both;
 }
 .proleague img {
+	display: inline-block;
 	float: left;
 	width: 5em;
 }
 #careerimage {
 	margin: .5em 0 0 0;
-	width: 35em;
+	width: 32em;
 }
 #clinicad {
 	color: #000;
@@ -262,23 +269,31 @@ a:hover {
 	display: inline-block;
 	font-size: 2em;
 	font-variant: small-caps;
-	padding: 1%;
+	padding: 2%;
 	margin: 2em 0 0 4em;
 	text-decoration: none;
+	text-align: center;
+}
+#clinicad:hover {
+	color: #FF0000;
 }
 /*Clinics Page*/
 .reserve {
+	border: .1em solid #000000;
 	color: #FF0000;
+	margin: 1em 0 0 0;
+	padding: .2em .5em;
 	font-size: 2em;
 	font-variant: small-caps;
 	font-weight: bold;
-	border: .1em solid #000000;
-	padding: .2em .5em;
-	margin: 1em 0 0 0;
 	text-decoration: none;
 }
 #clinics {
 	margin: 2em 0 3em 0;
+}
+#current {
+	font-style: italic;
+	margin: 0 0 1.5em 0;
 }
 #academies {
 	margin: 2em 0 3em 0;
@@ -293,10 +308,6 @@ a:hover {
 	float: left;
 	width: 65%;
 	padding: 0 0 0 1em;
-}
-#current {
-	font-style: italic;
-	margin: 0 0 1.5em 0;
 }
 #coaching, #tonyacademy {
 	display: block;
@@ -330,6 +341,10 @@ a:hover {
 	line-height: 1.6em;
 	padding: 0 4em 0 0;
 }
+#academyinfo p {
+	font-size: 1em;
+	line-height: 1.6em;
+}	
 #clinicinfo h3 {
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
@@ -348,10 +363,6 @@ a:hover {
 	width: 10em;
 	margin: 0 0 .5em 0;
 }
-#academyinfo p {
-	font-size: 1em;
-	line-height: 1.6em;
-}	
 #winter h4, #summer h4 {
 	font-size: 1.5em;
 }
@@ -369,125 +380,66 @@ a:hover {
 	color: #00BFFF;
 }
 /*Beyond The Pool Page*/
+.beyondgroup {
+	margin: 0 0 2em 0;
+}
 #beyondhead {
 	background-color: #FFFFFF;
 	color: #000000;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
-	padding: 1.5em 4em;
+	padding: 1.5em 5em;
 }
-#azevedo h2 {
-	font-size: 1.8em;
-	margin: .5em 0 0 1.1em;
+.beyondinfo {
+	float: left;
+	width: 65%;
+	line-height: 1.6em;
 }
-#azevedo p {
-	font-size: 1.2em;
-	margin: 0 0 2em .5em;
-	line-height: 1.7em;
+.beyimg {
+	float: left;
+	width: 20em;
+	margin: 1em 0 0 5em;
 }
-#azevedo hr {
+#djimg {
+	float: left;
+	width: 20em;
+	margin: 1em 1em 0 0;
+}
+.beyondinfo h2 {
+	font-size: 1.5em;
+}
+.beyondinfo p {
+	font-size: 1em;
+	margin: 1em 0 1em 0;
+}
+.beyondgroup hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 74em;
-	margin: .3em 0 .5em 2em;
+	width: 72em;
+	margin: 0 0 .5em 0;
 }
-#azevedo a {
-	font-size: 1.8em;
+.beyondinfo a {
+	font-size: 1.5em;
 	text-decoration: none;
 	color: #FF0000;
-	margin: 0 0 0 .3em;
-}
-#globalwave h2 {
-	font-size: 1.8em;
-	margin: 1em 0 0 1.1em;
-}
-#globalwave p {
-	font-size: 1.2em;
-	margin: 0 1em 1em 0;
-	line-height: 1.7em;
-}
-#globalwave hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 74em;
-	margin: .3em 0 .5em 2em;
-}
-#globalwave a {
-	font-size: 1.8em;
-	text-decoration: none;
-	color: #FF0000;
-	margin: .5em 0 0 0;
-}
-#wpo h2 {
-	font-size: 1.8em;
-	margin: 2em 0 0 1.1em;
-}
-#wpo p {
-	font-size: 1.2em;
-	line-height: 1.7em;
-	margin: .2em .4em 1.5em .5em;
-}
-#wpo hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 74em;
-	margin: .3em 0 .5em 2em;
-}
-#wpo a {
-	font-size: 1.8em;
-	text-decoration: none;
-	color: #FF0000;
-	margin: 0 0 0 .4em;
-}
-#awpinfo {
-	float: left;
-	width: 58%;
-	margin: 2em 0 0 1.5em;
-	line-height: 1.8em;
-}
-#jacks {
-	height: 18em;
-	float: right;
-	width: 34%;
-	margin: 2em 2.2em .5em 0;
-}
-#djinfo {
-	float: right;
-	width: 60%;
-	margin: 1.8em 1em 1em 0;
-}
-#djwave {
-	height: 18em;
-	float: left;
-	width: 34%;
-	margin: 2em 0 0 2em;
-}
-#wpoinfo {
-	float: left;
-	width: 60%;
-	margin: 1.5em 0 3em 1.4em;
-}
-#founders {
-	height: 18em;
-	float: right;
-	width: 34%;
-	margin: 2em 2em 0 .8em;
 }
 /*One on One Page*/
-#private h2 {
-	font-size: 2em;
-	margin: 1em .5em .2em .5em;
+.onecolumns {
+	float: left;
+	width: 33.33%;
+	margin: 3em 0;
+}
+.onecolumns h2 {
+	font-size: 1.5em;
 	text-align: center;
 }
-#private p {
-	font-size: 1.5em;
-	margin: 1em .3em;
+.onecolumns p {
+	font-size: 1em;
 	line-height: 1.6em;
+	padding: 0 1%;
 }
-#private a {
+.onecolumns a {
 	text-decoration: none;
 	color: #000000;
 	font-size: 2em;
@@ -497,100 +449,18 @@ a:hover {
 	padding: .2em .5em;
 	margin: 3em 0 2em 3em;
 }
-#private hr {
+.onecolumns hr {
 	border: none;
-	height: .18em;
-	background-color: #000000;
-	width: 15em;
-	margin: 0 0 0 5em;
-}
-#motivational h2 {
-	font-size: 2em;
-	margin: 1em .5em .2em .5em;
-	text-align: center;
-}
-#motivational p {
-	font-size: 1.5em;
-	margin: 1em .3em;
-	line-height: 1.6em;
-}
-#motivational a {
-	text-decoration: none;
-	color: #000000;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: .1em solid #000000;
-	padding: .2em .5em;
-	margin: 3em 0 2em 3em;
-}
-#motivational hr {
-	border: none;
-	height: .18em;
+	height: .15em;
 	background-color: #000000;
 	width: 22em;
-	margin: 0 0 0 2em;
+	margin: 0 0 .5em 0;
 }
-#consulting h2 {
-	font-size: 2em;
-	margin: 1em .5em .2em .5em;
-	text-align: center;
+.oneimg {
+	width: 20em;
+	margin: 1em auto;
 }
-#consulting p {
-	font-size: 1.5em;
-	margin: 1em .3em;
-	line-height: 1.6em;
-}
-#consulting a {
-	text-decoration: none;
-	color: #000000;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: .1em solid #000000;
-	padding: .2em .5em;
-	margin: 3em 0 2em 3em;
-}
-#consulting hr {
-	border: none;
-	height: .18em;
-	background-color: #000000;
-	width: 10em;
-	margin: 0 0 0 7.5em;
-}
-#private {
-	float: left;
-	width: 32%;
-	background-color: rgba(255, 0, 0, 0.7);
-	height: 46em;
-	margin: 1.5em .3em 0 .3em;
-}
-#motivational {
-	float: left;
-	width: 33%;
-	background-color: #00BFFF;
-	height: 46em;
-	margin: 1.5em .3em 0 .3em;
-}
-#consulting {
-	float: left;
-	width: 32%;
-	background-color: #FFFF00;
-	height: 46em;
-	margin: 1.5em .3em 0 .3em;
-}
-#one {
-	height: 12em;
-	margin: 0 0 2em 3.5em;
-}
-#interview {
-	height: 12em;
-	margin: 0 0 2em 4.5em;
-}
-#elton {
-	height: 12em;
-	margin: 0 0 2em 4.5em;
-}
+
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 
