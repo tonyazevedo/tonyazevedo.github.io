@@ -29,8 +29,15 @@ nav a {
 	width: 25%;
 	text-align: center;
 }
-a:hover {
-	color: #00BFFF;
+.contact {
+	display: inline-block;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	float: left;
+	width: 33.33%;
+}
+.contact:hover {
+	color: #FF0000;
 }
 #homepage {
 	display: block;
@@ -47,14 +54,6 @@ a:hover {
 	text-transform: uppercase;
 	margin: .5em 2em .5em 5em;
 	padding: 1%;
-}
-#homepage a, #media a {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #FFFFFF;
-}
-#homepage a:hover, #media a:hover {
-	color: #FF0000;
 }
 #splash {
 	background-color: #000000;
@@ -82,19 +81,6 @@ a:hover {
 	font-size: 1.5em;
 	background-color: #000000;
 	padding-top: 4%;
-}
-#navboxes a {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-#navboxes div {
-	border:.06em solid #FFFFFF;
-	display:block;
-	float:left;
-	padding:4em;
-	text-align:center;
-	width:33.33%;
-	height: 11em;
 }
 #academybox {
 	background-image: url("../images/tony_academy.jpg");
@@ -132,11 +118,6 @@ a:hover {
 	background-size:cover;
 	background-position:center;
 }
-#navboxes p {
-	background-color: rgba(0, 0, 0, 0.5);
-	display: inline-block;
-	padding: 1% 4%;
-}
 #bottomnav {
 	background-color: #000000;
 	width: 100%;
@@ -147,24 +128,46 @@ a:hover {
 	float: left;
 	padding: 2% 0 0 0;
 }
+#logos {
+	background-color: rgba(0, 191, 255, 0.4);
+}
+#headline h1 {
+	font-weight: 400;
+}
+#homepage a, #media a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+#navboxes a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navboxes div {
+	border:.06em solid #FFFFFF;
+	display:block;
+	float:left;
+	padding:4em;
+	text-align:center;
+	width:33.33%;
+	height: 11em;
+}
+a:hover {
+	color: #00BFFF;
+}
+#homepage a:hover, #media a:hover {
+	color: #FF0000;
+}
+#navboxes p {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 1% 4%;
+}
 #social a {
 	display: block;
 	float: left;
 	width: 20%;
 	padding: .5%;
-}
-.contact {
-	display: inline-block;
-	font-size: 1.5em;
-	font-variant: small-caps;
-	float: left;
-	width: 33.33%;
-}
-.contact:hover {
-	color: #FF0000;
-}
-#logos {
-	background-color: rgba(0, 191, 255, 0.4);
 }
 #logos img {
 	display: block;
@@ -248,6 +251,7 @@ a:hover {
 	font-size: 1em;
 	padding: 1em 0 0 0;
 	display: inline-block;
+	margin: 0 0 0 1em;
 }
 #profcareer p {
 	font-size: 1em;
@@ -288,6 +292,14 @@ a:hover {
 	font-weight: bold;
 	text-decoration: none;
 }
+.coaching {
+	display: block;
+	float: left;
+	width: 35%;
+}
+.coaching img {
+	width: 25em;
+}
 #clinics {
 	margin: 2em 0 3em 0;
 }
@@ -308,11 +320,6 @@ a:hover {
 	float: left;
 	width: 65%;
 	padding: 0 0 0 1em;
-}
-#coaching, #tonyacademy {
-	display: block;
-	float: left;
-	width: 35%;
 }
 #list {
 	color: #FF0000;
@@ -438,29 +445,35 @@ a:hover {
 	font-size: 1em;
 	line-height: 1.6em;
 	padding: 0 1%;
+	text-align: center;
 }
 .onecolumns a {
+	display: block;
 	text-decoration: none;
 	color: #000000;
 	font-size: 2em;
 	font-variant: small-caps;
 	font-weight: bold;
 	border: .1em solid #000000;
-	padding: .2em .5em;
-	margin: 3em 0 2em 3em;
+	padding: 1%;
+	margin: auto;
+	width: 10em;
 }
 .onecolumns hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 22em;
-	margin: 0 0 .5em 0;
+	width: 20em;
+	margin: 0 0 1em 0;
 }
 .oneimg {
+	display: block;
 	width: 20em;
 	margin: 1em auto;
 }
-
+.onecolumns a:hover {
+	color: #FF0000;
+}
 .clearfix:after { 
 	visibility: hidden; 
 	display: block; 
