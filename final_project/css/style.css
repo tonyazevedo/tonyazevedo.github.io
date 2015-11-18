@@ -46,14 +46,14 @@ nav a {
 	text-transform: uppercase;
 	float: left;
 	padding: 1%;
-	margin: .5em 0 .5em 1.5em;
+	margin: .5em 0 .5em 4%;
 }
 #media {
 	display: block;
 	float: right;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	margin: .5em 2em .5em 5em;
+	margin: .5em 4% .5em 5em;
 	padding: 1%;
 }
 #splash {
@@ -179,6 +179,30 @@ a:hover {
 	width: 90%;
 	margin: auto;
 }
+.bio h2 {
+	color: #000000;
+	font-size: 1.5em;
+	margin: 1.5em 0 .1em 0;
+}
+.bio p {
+	margin: 1em 0;
+	font-size: 1em;
+	line-height: 1.4em;
+} 
+.bio hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 72em;
+	margin: 0 0 .5em 0;
+}
+.bio ul {
+	margin: 1em 0 2em 1em;
+	font-size: 1em;
+}
+.bio li {
+	margin: .5em;
+}
 #headshot {
 	width: 20em;
 	float: left;
@@ -188,30 +212,6 @@ a:hover {
 	width: 20em;
 	float: right;
 	margin: 2em 0 1em 0;
-}
-#biography h2, #career h2 {
-	color: #000000;
-	font-size: 1.5em;
-	margin: 1.5em 0 .1em 0;
-}
-#biography p {
-	margin: 1em 0;
-	font-size: 1em;
-	line-height: 1.4em;
-} 
-#biography hr, #career hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 72em;
-	margin: 0 0 .5em 0;
-}
-#career ul {
-	margin: 1em 0 2em 1em;
-	font-size: 1em;
-}
-#career li {
-	margin: .5em;
 }
 /*Career Page*/
 .proleague img {
@@ -238,10 +238,25 @@ a:hover {
 	text-decoration: none;
 	text-align: center;
 }
+#clinicad:hover {
+	color: #FF0000;
+}
 #usacareer h2, #profcareer h2 {
 	color: #000000;
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
+}
+#profcareer h3 {
+	float: left;
+	font-size: 1em;
+	padding: 2em 0 0 0;
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+#profcareer p {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	clear: both;
 }
 #usacareer hr {
 	border: none;
@@ -264,21 +279,6 @@ a:hover {
 	padding: .8em;
 	list-style-position: inside
 }	
-#profcareer h3 {
-	float: left;
-	font-size: 1em;
-	padding: 1em 0 0 0;
-	display: inline-block;
-	margin: 0 0 0 1em;
-}
-#profcareer p {
-	font-size: 1em;
-	margin: 0 0 1em 0;
-	clear: both;
-}
-#clinicad:hover {
-	color: #FF0000;
-}
 /*Clinics Page*/
 .reserve {
 	border: .1em solid #000000;
@@ -333,6 +333,9 @@ a:hover {
 	margin: 3em 0;
 	text-decoration: none;
 }
+#reservetop:hover {
+	color: #00BFFF;
+}
 #winter, #summer {
 	display: inline-block;
 	float: left;
@@ -381,9 +384,6 @@ a:hover {
 	line-height: 1.6em;
 	margin: .5em 4em 4.5em 0;
 }
-#reservetop:hover {
-	color: #00BFFF;
-}
 /*Beyond The Pool Page*/
 .beyondgroup {
 	margin: 0 0 2em 0;
@@ -395,21 +395,24 @@ a:hover {
 }
 .beyimg {
 	float: left;
+	width: 30%;
+	margin: 1.5% 0 0 5%;
+}
+.beyimg img {
 	width: 20em;
-	margin: 1em 0 0 5em;
 }
 .beyondinfo h2 {
 	font-size: 1.5em;
 }
 .beyondinfo p {
 	font-size: 1em;
-	margin: 1em 0 1em 0;
+	margin: 2% 0 1% 0;
 }
 .beyondgroup hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 72em;
+	width: 71em;
 	margin: 0 0 .5em 0;
 }
 .beyondinfo a {
@@ -426,8 +429,11 @@ a:hover {
 }
 #djimg {
 	float: left;
+	width: 30%;
+	margin: 1em 1% 0 0;
+}
+#djimg img {
 	width: 20em;
-	margin: 1em 1em 0 0;
 }
 /*One on One Page*/
 .onecolumns {
@@ -447,12 +453,14 @@ a:hover {
 .onecolumns p {
 	font-size: 1em;
 	line-height: 1.6em;
-	padding: 0 1%;
+	margin: 1em 0;
+	padding: 0 4%;
 	text-align: center;
 }
 .onecolumns a {
 	display: block;
 	text-decoration: none;
+	text-align: center;
 	color: #000000;
 	font-size: 2em;
 	font-variant: small-caps;
@@ -467,7 +475,7 @@ a:hover {
 	height: .15em;
 	background-color: #000000;
 	width: 20em;
-	margin: 0 0 1em 0;
+	margin: auto;
 }
 .onecolumns a:hover {
 	color: #FF0000;
