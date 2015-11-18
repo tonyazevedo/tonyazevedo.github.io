@@ -15,6 +15,7 @@ h1 {
 	background-color: #000000;
 	color: #FFFFFF;
 	font-size: 2.5em;
+	font-weight: 400;
 }
 nav {
 	background-color: #000000;
@@ -131,13 +132,15 @@ nav a {
 #logos {
 	background-color: rgba(0, 191, 255, 0.4);
 }
-#headline h1 {
-	font-weight: 400;
-}
 #homepage a, #media a {
 	text-decoration: none;
 	font-size: 1.5em;
 	color: #FFFFFF;
+}
+#navboxes p {
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 1% 4%;
 }
 #navboxes a {
 	color: #FFFFFF;
@@ -152,17 +155,6 @@ nav a {
 	width:33.33%;
 	height: 11em;
 }
-a:hover {
-	color: #00BFFF;
-}
-#homepage a:hover, #media a:hover {
-	color: #FF0000;
-}
-#navboxes p {
-	background-color: rgba(0, 0, 0, 0.5);
-	display: inline-block;
-	padding: 1% 4%;
-}
 #social a {
 	display: block;
 	float: left;
@@ -176,9 +168,15 @@ a:hover {
 	padding: .5%;
 	width: 18%;
 }
+a:hover {
+	color: #00BFFF;
+}
+#homepage a:hover, #media a:hover {
+	color: #FF0000;
+}
 /*About Page*/
 .content { 
-	width: 72em;
+	width: 90%;
 	margin: auto;
 }
 #headshot {
@@ -205,7 +203,7 @@ a:hover {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 75em;
+	width: 72em;
 	margin: 0 0 .5em 0;
 }
 #career ul {
@@ -216,9 +214,29 @@ a:hover {
 	margin: .5em;
 }
 /*Career Page*/
+.proleague img {
+	display: inline-block;
+	float: left;
+	width: 5em;
+}
 #usacareer, #profcareer {
 	float: left;
 	width: 50%;
+}
+#careerimage {
+	margin: .5em 0 0 0;
+	width: 32em;
+}
+#clinicad {
+	color: #000;
+	border: 3px solid #000;
+	display: inline-block;
+	font-size: 2em;
+	font-variant: small-caps;
+	padding: 2%;
+	margin: 2em 0 0 4em;
+	text-decoration: none;
+	text-align: center;
 }
 #usacareer h2, #profcareer h2 {
 	color: #000000;
@@ -257,26 +275,6 @@ a:hover {
 	font-size: 1em;
 	margin: 0 0 1em 0;
 	clear: both;
-}
-.proleague img {
-	display: inline-block;
-	float: left;
-	width: 5em;
-}
-#careerimage {
-	margin: .5em 0 0 0;
-	width: 32em;
-}
-#clinicad {
-	color: #000;
-	border: 3px solid #000;
-	display: inline-block;
-	font-size: 2em;
-	font-variant: small-caps;
-	padding: 2%;
-	margin: 2em 0 0 4em;
-	text-decoration: none;
-	text-align: center;
 }
 #clinicad:hover {
 	color: #FF0000;
@@ -390,13 +388,6 @@ a:hover {
 .beyondgroup {
 	margin: 0 0 2em 0;
 }
-#beyondhead {
-	background-color: #FFFFFF;
-	color: #000000;
-	font-size: 1.5em;
-	text-align: center;
-	padding: 1.5em 5em;
-}
 .beyondinfo {
 	float: left;
 	width: 65%;
@@ -406,11 +397,6 @@ a:hover {
 	float: left;
 	width: 20em;
 	margin: 1em 0 0 5em;
-}
-#djimg {
-	float: left;
-	width: 20em;
-	margin: 1em 1em 0 0;
 }
 .beyondinfo h2 {
 	font-size: 1.5em;
@@ -431,11 +417,28 @@ a:hover {
 	text-decoration: none;
 	color: #FF0000;
 }
+#beyondhead {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1.5em 5em;
+}
+#djimg {
+	float: left;
+	width: 20em;
+	margin: 1em 1em 0 0;
+}
 /*One on One Page*/
 .onecolumns {
 	float: left;
 	width: 33.33%;
 	margin: 3em 0;
+}
+.oneimg {
+	display: block;
+	width: 20em;
+	margin: 1em auto;
 }
 .onecolumns h2 {
 	font-size: 1.5em;
@@ -465,11 +468,6 @@ a:hover {
 	background-color: #000000;
 	width: 20em;
 	margin: 0 0 1em 0;
-}
-.oneimg {
-	display: block;
-	width: 20em;
-	margin: 1em auto;
 }
 .onecolumns a:hover {
 	color: #FF0000;
