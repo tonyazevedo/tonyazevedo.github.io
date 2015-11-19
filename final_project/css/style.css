@@ -152,7 +152,7 @@ a:hover {
 	border:.06em solid #FFFFFF;
 	display:block;
 	float:left;
-	padding:4em;
+	padding:8%;
 	text-align:center;
 	width:33.33%;
 	height: 11em;
@@ -210,14 +210,14 @@ a:hover {
 	margin: 2em 0 1em 0;
 }
 /*Career Page*/
+.career {
+	float: left;
+	width: 50%;
+}
 .proleague img {
 	display: inline-block;
 	float: left;
 	width: 5em;
-}
-.career {
-	float: left;
-	width: 50%;
 }
 .career h2 {
 	color: #000000;
