@@ -30,6 +30,9 @@ nav a {
 	width: 25%;
 	text-align: center;
 }
+a:hover {
+	color: #00BFFF;
+}
 .contact {
 	display: inline-block;
 	font-size: 1.5em;
@@ -40,21 +43,25 @@ nav a {
 .contact:hover {
 	color: #FF0000;
 }
-#homepage {
+.headerinfo {
 	display: block;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	float: left;
 	padding: 1%;
-	margin: .5em 0 .5em 4%;
+	margin: 1% 0 1% 4%;
 }
-#media {
-	display: block;
+.headerinfo:nth-of-type(2){
 	float: right;
+	margin: 1% 4% 1% 5%;
+}
+.headerinfo a {
+	text-decoration: none;
+	font-size: 1.5em;
 	color: #FFFFFF;
-	text-transform: uppercase;
-	margin: .5em 4% .5em 5em;
-	padding: 1%;
+}
+.headerinfo a:hover {
+	color: #FF0000;
 }
 #splash {
 	background-color: #000000;
@@ -132,11 +139,6 @@ nav a {
 #logos {
 	background-color: rgba(0, 191, 255, 0.4);
 }
-#homepage a, #media a {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #FFFFFF;
-}
 #navboxes p {
 	background-color: rgba(0, 0, 0, 0.5);
 	display: inline-block;
@@ -167,12 +169,6 @@ nav a {
 	margin: 1%;
 	padding: .5%;
 	width: 18%;
-}
-a:hover {
-	color: #00BFFF;
-}
-#homepage a:hover, #media a:hover {
-	color: #FF0000;
 }
 /*About Page*/
 .content { 
@@ -219,10 +215,47 @@ a:hover {
 	float: left;
 	width: 5em;
 }
-#usacareer, #profcareer {
+.career {
 	float: left;
 	width: 50%;
 }
+.career h2 {
+	color: #000000;
+	font-size: 1.5em;
+	margin: 1em 0 0 0;
+}
+.career h3 {
+	float: left;
+	font-size: 1em;
+	padding: 5% 0 0 0;
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+.career p {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+	clear: both;
+}
+.career p:nth-of-type(6) {
+	margin-bottom: 4em;
+}
+.career hr {
+	border: none;
+	height: .15em;
+	background-color: #000000;
+	width: 32em;
+	margin: 0 0 .5em 0;
+}
+.career hr:nth-of-type(2) {
+	width: 40em;
+}
+.career ul {
+	font-size: 1em;
+	margin: 0 0 1.5em;
+	line-height: 1.8em;
+	padding: .8em;
+	list-style-position: inside
+}	
 #careerimage {
 	margin: .5em 0 0 0;
 	width: 32em;
@@ -234,51 +267,13 @@ a:hover {
 	font-size: 2em;
 	font-variant: small-caps;
 	padding: 2%;
-	margin: 2em 0 0 4em;
+	margin: 10% 0 0 20%;
 	text-decoration: none;
 	text-align: center;
 }
 #clinicad:hover {
 	color: #FF0000;
 }
-#usacareer h2, #profcareer h2 {
-	color: #000000;
-	font-size: 1.5em;
-	margin: 1em 0 0 0;
-}
-#profcareer h3 {
-	float: left;
-	font-size: 1em;
-	padding: 2em 0 0 0;
-	display: inline-block;
-	margin: 0 0 0 1em;
-}
-#profcareer p {
-	font-size: 1em;
-	margin: 0 0 1em 0;
-	clear: both;
-}
-#usacareer hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 32em;
-	margin: 0 0 .5em 0;
-}
-#profcareer hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 35em;
-	margin: 0 0 .5em 0;
-}
-#usacareer ul {
-	font-size: 1em;
-	margin: 0 0 1.5em;
-	line-height: 1.8em;
-	padding: .8em;
-	list-style-position: inside
-}	
 /*Clinics Page*/
 .reserve {
 	border: .1em solid #000000;
@@ -305,9 +300,6 @@ a:hover {
 	font-style: italic;
 	margin: 0 0 1.5em 0;
 }
-#academies {
-	margin: 2em 0 3em 0;
-}
 #clinicinfo {
 	display: block;
 	float: left;
@@ -318,6 +310,9 @@ a:hover {
 	float: left;
 	width: 65%;
 	padding: 0 0 0 1em;
+}
+#academies {
+	margin: 2em 0 3em 0;
 }
 #list {
 	color: #FF0000;
@@ -336,7 +331,7 @@ a:hover {
 #reservetop:hover {
 	color: #00BFFF;
 }
-#winter, #summer {
+.wintsum {
 	display: inline-block;
 	float: left;
 	width: 50%;
@@ -371,17 +366,15 @@ a:hover {
 	width: 10em;
 	margin: 0 0 .5em 0;
 }
-#winter h4, #summer h4 {
+.wintsum h4 {
 	font-size: 1.5em;
 }
-#winter p {
+.wintsum p {
 	font-size: 1em;
 	line-height: 1.6em;
 	margin: .5em 0 1.5em 0;
 }
-#summer p {
-	font-size: 1em;
-	line-height: 1.6em;
+.wintsum p:nth-of-type(2) {
 	margin: .5em 4em 4.5em 0;
 }
 /*Beyond The Pool Page*/
@@ -427,13 +420,8 @@ a:hover {
 	text-align: center;
 	padding: 1.5em 5em;
 }
-#djimg {
-	float: left;
-	width: 30%;
+.beyimg:nth-of-type(2) {
 	margin: 1em 1% 0 0;
-}
-#djimg img {
-	width: 20em;
 }
 /*One on One Page*/
 .onecolumns {
