@@ -58,6 +58,9 @@ a:hover {
 #hero {
 	background:url(../images/tony_mikasa.jpeg) no-repeat;
 	background-size:cover;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
 	float: left;
 	width: 66.66%;
 	height: 90vh;
