@@ -162,6 +162,9 @@ a:hover {
 	padding: .5%;
 	width: 18%;
 }
+label {
+	display: none;
+}
 /*About Page*/
 .content { 
 	max-width: 77em;
@@ -191,6 +194,10 @@ a:hover {
 }
 .bio li {
 	margin: .5em;
+}
+#homepage {
+	font-size: 1.5em;
+	font-weight: 800;
 }
 #headshot {
 	width: 50%;
@@ -466,4 +473,44 @@ a:hover {
 	content: "."; 
 	clear: both;
 	height: 0; 
+}
+#toggle {
+	display: none;
+}
+@media screen and (max-width:500px) {
+    label {
+        display: block;
+        text-align: center;
+        padding: 1em 0;
+        font-size: 1.5em;
+        color: #fff;
+        background-color: #000;
+    }
+    nav {
+    	display: none;
+    	background-color: #000;
+    }
+    nav a {
+    	background-color: #000;
+    	display: block;
+    	float: none;
+    	text-align: center;
+    	font-size: .8em;
+    	text-align: center;
+    	margin: auto;
+    }
+    nav a:active {
+    	color: #0000FF;
+    }
+    #toggle:checked + nav {
+        display:block;
+    }
+    .contact {
+    	float: none;
+    	display: block;
+    }
+    #social {
+    	float: none;
+    	display: block;
+    }
 }
