@@ -271,15 +271,8 @@ a:hover {
 	color: #FF0000;
 }
 /*Clinics Page*/
-.reserve {
-	border: .1em solid #000000;
-	color: #FF0000;
-	display: inline-block;
-	padding: .2em .5em;
-	font-size: 1.5em;
-	text-transform: uppercase;
-	font-weight: bold;
-	text-decoration: none;
+.clinics {
+	margin: 2em 0 2em 0;
 }
 .coaching {
 	display: block;
@@ -289,55 +282,14 @@ a:hover {
 .coaching img {
 	width: 100%;
 }
-/*#clinics {
-	margin: 2em 0 3em 0;
-}*/
 .clinicinfo {
 	display: block;
 	float: left;
 	width: 60%;
 }
-.clinicinfo p:nth-of-type(2) {
-	font-style: italic;
-}
-/*#academyinfo {
-	display: block;
-	float: left;
-	width: 65%;
-	padding: 0 0 0 1em;
-}*/
-#academies {
-	margin: 2em 0 3em 0;
-	position: relative;
-}
-#list {
-	color: #FF0000;
-	font-size: 1em;
-}
-.clinics .reserve {
-	margin-top: 1em;
-}
-.clinics .reserve:hover {
-	color: #00BFFF;
-}
-#academies .reserve {
-	position: absolute;
-	bottom: 0;
-}
-.wintsum {
-	display: inline-block;
-	float: left;
-	height: 13em;
-	width: 50%;
-}
 .clinicinfo h2 {
 	font-size: 1.5em;
 }
-/*#clinicinfo p {
-	font-size: 1em;
-	line-height: 1.6em;
-	padding: 0 4em 0 0;
-}*/
 .clinicinfo p {
 	font-size: 1em;
 	line-height: 1.6em;
@@ -353,13 +305,49 @@ a:hover {
 	width: 15em;
 	margin: 0 0 .5em 0;
 }
-/*#academyinfo hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
+.clinicinfo:nth-of-type(2) {
+	padding-left: 1em;
+}
+.clinicinfo p:nth-of-type(2) {
+	font-style: italic;
+}
+.clinicinfo hr:nth-of-type(2) {
 	width: 10em;
-	margin: 0 0 .5em 0;
-}*/
+}
+.reserve {
+	border: .1em solid #000000;
+	color: #FF0000;
+	display: inline-block;
+	padding: .2em .5em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+.clinics .reserve {
+	margin-top: 1em;
+}
+.clinics .reserve:hover {
+	color: #00BFFF;
+}
+#academies {
+	margin: 2em 0 3em 0;
+	position: relative;
+}
+#academies .reserve {
+	position: absolute;
+	bottom: 0;
+}
+#list {
+	color: #FF0000;
+	font-size: 1em;
+}
+.wintsum {
+	display: inline-block;
+	float: left;
+	height: 13em;
+	width: 50%;
+}
 .wintsum h4 {
 	font-size: 1.5em;
 }
@@ -382,25 +370,28 @@ a:hover {
 }
 .beyimg {
 	float: left;
-	width: 30%;
-	margin: 1.5% 0 0 5%;
+	width: 35%;
+	padding-left: 1em;
 }
 .beyimg img {
-	width: 20em;
+	width: 100%;
 }
 .beyondinfo h2 {
 	font-size: 1.5em;
 }
 .beyondinfo p {
 	font-size: 1em;
-	margin: 2% 0 1% 0;
+	margin: 0 1em 1em 0;
+}
+.beyondinfo p:nth-of-type(2) {
+	margin: 0 0 1em 1em;
 }
 .beyondgroup hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 71em;
-	margin: 0 0 .5em 0;
+	max-width: 75em;
+	margin-bottom: 1em;
 }
 .beyondinfo a {
 	font-size: 1.5em;
@@ -415,18 +406,21 @@ a:hover {
 	padding: 1.5em 5em;
 }
 .beyimg:nth-of-type(2) {
-	margin: 1em 1% 0 0;
+	padding: 0 1em 0 0;
 }
 /*One on One Page*/
 .onecolumns {
 	float: left;
 	width: 33.33%;
-	margin: 3em 0;
+	margin: 2em 0;
 }
 .oneimg {
 	display: block;
-	width: 20em;
-	margin: 1em auto;
+	width: 100%;
+	padding: 1em 1em;
+}
+.oneimg img {
+	width: 100%;
 }
 .onecolumns h2 {
 	font-size: 1.5em;
