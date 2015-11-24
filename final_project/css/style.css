@@ -11,6 +11,15 @@ header {
 	background-color: #000000;
 	width: 100%;
 }
+header a {
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: 2%;
+	width: 16.66%;
+	text-align: center;
+}
 h1 {
 	background-color: #000000;
 	color: #FFFFFF;
@@ -35,32 +44,12 @@ a:hover {
 }
 .contact {
 	display: inline-block;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-variant: small-caps;
 	float: left;
 	width: 33.33%;
 }
 .contact:hover {
-	color: #FF0000;
-}
-.headerinfo {
-	display: block;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	float: left;
-	padding: 1%;
-	margin: 1% 0 1% 4%;
-}
-.headerinfo:nth-of-type(2){
-	float: right;
-	margin: 1% 4% 1% 5%;
-}
-.headerinfo a {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: #FFFFFF;
-}
-.headerinfo a:hover {
 	color: #FF0000;
 }
 #splash {
@@ -172,8 +161,9 @@ a:hover {
 }
 /*About Page*/
 .content { 
-	width: 90%;
+	max-width: 77em;
 	margin: auto;
+	padding: 1em;
 }
 .bio h2 {
 	color: #000000;
@@ -189,7 +179,7 @@ a:hover {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 72em;
+	width: 100%;
 	margin: 0 0 .5em 0;
 }
 .bio ul {
@@ -200,19 +190,26 @@ a:hover {
 	margin: .5em;
 }
 #headshot {
-	width: 20em;
+	width: 50%;
 	float: left;
-	margin: .5em 1em .5em 0;
 }
 #cheer {
-	width: 20em;
+	width: 50%;
 	float: right;
-	margin: 2em 0 1em 0;
+}
+#headshot img {
+	width: 100%;
+	padding: .5em 1em 0 0;
+}
+#cheer img {
+	width: 100%;
+	padding-top: .5em;
 }
 /*Career Page*/
 .career {
 	float: left;
 	width: 50%;
+	padding-right: 2em;
 }
 .proleague img {
 	display: inline-block;
@@ -236,18 +233,15 @@ a:hover {
 	margin: 0 0 1em 0;
 	clear: both;
 }
-.career p:nth-of-type(6) {
+.proleague:last-of-type {
 	margin-bottom: 4em;
 }
 .career hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 32em;
+	width: 100%;
 	margin: 0 0 .5em 0;
-}
-.career hr:nth-of-type(2) {
-	width: 40em;
 }
 .career ul {
 	font-size: 1em;
@@ -257,17 +251,19 @@ a:hover {
 	list-style-position: inside
 }	
 #careerimage {
-	margin: .5em 0 0 0;
-	width: 32em;
+	width: 100%;
+}
+#careerimage img {
+	width: 100%;
 }
 #clinicad {
 	color: #000;
 	border: 3px solid #000;
-	display: inline-block;
-	font-size: 2em;
-	font-variant: small-caps;
+	display: block;
+	font-size: 1.5em;
+	margin: 3em 1em 0 1em;
+	text-transform: uppercase;
 	padding: 2%;
-	margin: 10% 0 0 20%;
 	text-decoration: none;
 	text-align: center;
 }
@@ -278,94 +274,92 @@ a:hover {
 .reserve {
 	border: .1em solid #000000;
 	color: #FF0000;
-	margin: 1em 0 0 0;
+	display: inline-block;
 	padding: .2em .5em;
-	font-size: 2em;
-	font-variant: small-caps;
+	font-size: 1.5em;
+	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration: none;
 }
 .coaching {
 	display: block;
 	float: left;
-	width: 35%;
+	width: 40%;
 }
 .coaching img {
-	width: 25em;
+	width: 100%;
 }
-#clinics {
+/*#clinics {
 	margin: 2em 0 3em 0;
-}
-#current {
-	font-style: italic;
-	margin: 0 0 1.5em 0;
-}
-#clinicinfo {
+}*/
+.clinicinfo {
 	display: block;
 	float: left;
-	width: 65%;
+	width: 60%;
 }
-#academyinfo {
+.clinicinfo p:nth-of-type(2) {
+	font-style: italic;
+}
+/*#academyinfo {
 	display: block;
 	float: left;
 	width: 65%;
 	padding: 0 0 0 1em;
-}
+}*/
 #academies {
 	margin: 2em 0 3em 0;
+	position: relative;
 }
 #list {
 	color: #FF0000;
 	font-size: 1em;
 }
-#reservetop {
-	color: #FF0000;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-weight: bold;
-	border: .1em solid #000000;
-	padding: .2em .5em;
-	margin: 3em 0;
-	text-decoration: none;
+.clinics .reserve {
+	margin-top: 1em;
 }
-#reservetop:hover {
+.clinics .reserve:hover {
 	color: #00BFFF;
+}
+#academies .reserve {
+	position: absolute;
+	bottom: 0;
 }
 .wintsum {
 	display: inline-block;
 	float: left;
+	height: 13em;
 	width: 50%;
 }
-#clinicinfo h2, #academyinfo h2 {
+.clinicinfo h2 {
 	font-size: 1.5em;
 }
-#clinicinfo p {
+/*#clinicinfo p {
 	font-size: 1em;
 	line-height: 1.6em;
 	padding: 0 4em 0 0;
-}
-#academyinfo p {
+}*/
+.clinicinfo p {
 	font-size: 1em;
 	line-height: 1.6em;
 }	
-#clinicinfo h3 {
+.clinicinfo h3 {
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
 }
-#clinicinfo hr {
+.clinicinfo hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 15em;
 	margin: 0 0 .5em 0;
 }
-#academyinfo hr {
+/*#academyinfo hr {
 	border: none;
 	height: .15em;
 	background-color: #000000;
 	width: 10em;
 	margin: 0 0 .5em 0;
-}
+}*/
 .wintsum h4 {
 	font-size: 1.5em;
 }
