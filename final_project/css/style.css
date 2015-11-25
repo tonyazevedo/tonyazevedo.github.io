@@ -26,11 +26,25 @@ h1 {
 	font-size: 2.5em;
 	font-weight: 400;
 }
-nav {
+.contact {
+	display: inline-block;
+	font-size: 1.5em;
+	float: left;
+	width: 33.33%;
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #fff;
+	text-align: center;
+	margin-top: 1em;
+}
+.contact:hover {
+	color: #FF0000;
+}
+#main {
 	background-color: #000000;
 	font-size: 1.5em;
 }
-nav a {
+#main a {
 	color: #FFFFFF;
 	text-decoration: none;
 	display: block;
@@ -39,18 +53,8 @@ nav a {
 	width: 25%;
 	text-align: center;
 }
-a:hover {
+#main a:hover {
 	color: #00BFFF;
-}
-.contact {
-	display: inline-block;
-	font-size: 1em;
-	font-variant: small-caps;
-	float: left;
-	width: 33.33%;
-}
-.contact:hover {
-	color: #FF0000;
 }
 #splash {
 	background-color: #000000;
@@ -393,8 +397,19 @@ label {
 	font-size: 1em;
 	margin: 0 1em 1em 0;
 }
-.beyondinfo p:nth-of-type(2) {
+.beyondgroup:nth-of-type(2) p { 
 	margin: 0 0 1em 1em;
+}
+.beyondgroup:nth-of-type(2) a {
+	margin-left: .5em;
+}
+#djimg {
+	float: left;
+	width: 35%;
+	padding: 0;
+}
+#djimg img {
+	width: 100%;
 }
 .beyondgroup hr {
 	border: none;
@@ -415,19 +430,20 @@ label {
 	text-align: center;
 	padding: 1.5em 5em;
 }
-.beyimg:nth-of-type(2) {
-	padding: 0 1em 0 0;
-}
 /*One on One Page*/
 .onecolumns {
 	float: left;
 	width: 33.33%;
+	padding-right: 1.5em;
 	margin: 2em 0;
 }
 .oneimg {
 	display: block;
 	width: 100%;
 	padding: 1em 1em;
+}
+.oneheight {
+	height: 15em;
 }
 .oneimg img {
 	width: 100%;
@@ -460,7 +476,7 @@ label {
 	border: none;
 	height: .15em;
 	background-color: #000000;
-	width: 20em;
+	width: 100%;
 	margin: auto;
 }
 .onecolumns a:hover {
@@ -474,7 +490,34 @@ label {
 	clear: both;
 	height: 0; 
 }
+@media screen and (max-width: 800px) {
+	.contact {
+    	width: 25%;
+    }
+    #hero {
+    	width: 50%;
+    }
+    #headline {
+    	width: 50%;
+	}
+	#social {
+    	width: 50%;
+    }
+    #navboxes div {
+    	width: 50%;
+    	height: 10em;
+    }
+	#navboxes p {
+		margin: 1em auto;
+	}
+	#cheer, #headshot {
+		width: 40%;
+	}
+}
 #toggle {
+	display: none;
+}
+#toggletwo {
 	display: none;
 }
 @media screen and (max-width:500px) {
@@ -486,11 +529,30 @@ label {
         color: #fff;
         background-color: #000;
     }
-    nav {
+    label:active {
+    	color: #FF0000;
+    }
+    #labeltwo {
+    	float: right;
+    	width: 50%;
+    	text-align: center;
+    	margin: 1em auto;
+    }
+    .contact {
+    	float: none;
+    	display: block;
+    	width: 100%;
+    	text-align: center;
+    	margin-bottom: 1em;
+    }
+    .contact:active {
+    	color: #FF0000;
+    }
+    #main {
     	display: none;
     	background-color: #000;
     }
-    nav a {
+    #main a {
     	background-color: #000;
     	display: block;
     	float: none;
@@ -499,18 +561,54 @@ label {
     	text-align: center;
     	margin: auto;
     }
-    nav a:active {
+    #main a:active {
     	color: #0000FF;
     }
-    #toggle:checked + nav {
+    #toggle:checked + #main {
         display:block;
     }
-    .contact {
-    	float: none;
+    #toggletwo:checked + #secondnav {
     	display: block;
+    }
+    #hero {
+    	display: none;
+    }
+    #headline {
+    	width: 100%;
+    	text-align: center;
+    	margin: 1em auto;
     }
     #social {
     	float: none;
     	display: block;
+    	width: 100%;
     }
+    #navboxes div {
+    	width: 100%;
+    }
+    #navboxes p {
+    	margin-top: 2.5em;
+    }
+    #secondnav {
+    	display: none;
+    }
+    #cheer {
+    	display: none;
+    }
+    .career {
+    	float: none;
+    	width: 100%;
+    }
+    #careerimage {
+    	display: none;
+    }
+    #clinicad {
+    	margin: 0 auto 2em;
+    	background-color: #FF0000;
+    	font-weight: 700;
+    }
+    #clinicad:hover {
+ 		color: #000;
+    }
+    
 }
