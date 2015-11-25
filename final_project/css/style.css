@@ -403,13 +403,8 @@ label {
 .beyondgroup:nth-of-type(2) a {
 	margin-left: .5em;
 }
-#djimg {
-	float: left;
-	width: 35%;
-	padding: 0;
-}
-#djimg img {
-	width: 100%;
+.beyimg:nth-of-type(2) {
+	padding-left: none;
 }
 .beyondgroup hr {
 	border: none;
@@ -513,6 +508,18 @@ label {
 	#cheer, #headshot {
 		width: 40%;
 	}
+	.beyondinfo {
+	float: left;
+	width: 55%;
+	line-height: 1.4em;
+	}
+	.beyimg {
+	float: left;
+	width: 45%;
+	}
+	#djimg {
+		width: 45%;
+	}
 }
 #toggle {
 	display: none;
@@ -569,6 +576,13 @@ label {
     }
     #toggletwo:checked + #secondnav {
     	display: block;
+    	float: right;
+    	width: 50%;
+    }
+    #homepage {
+    	display: block;
+    	float: left;
+    	width: 50%;
     }
     #hero {
     	display: none;
@@ -609,6 +623,35 @@ label {
     }
     #clinicad:hover {
  		color: #000;
+    }
+    .clinicinfo {
+    	float: none;
+    	display: block;
+    	width: 100%;
+    }
+    .coaching {
+    	display: none;
+    }
+    .beyondinfo {
+    	float: none;
+    	width: 100%;
+    }
+    .beyimg {
+    	display: none;
+    }
+    .beyondgroup h2 {
+    	text-align: center;
+    	margin: auto;
+    }
+    .beyonda {
+    	text-align: center;
+    	width: auto;
+    }
+    #beyondhead {
+    	width: 100%;
+    	padding: 0;
+    	margin: 1em auto;
+    	font-size: 1.5em;
     }
     
 }
