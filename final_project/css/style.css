@@ -34,11 +34,11 @@ h1 {
 #main a {
 	color: #FFFFFF;
 	text-decoration: none;
+	text-align: center;
 	display: block;
 	float: left;
 	padding: 2%;
 	width: 25%;
-	text-align: center;
 }
 #main a:hover {
 	color: #00BFFF;
@@ -136,7 +136,7 @@ h1 {
 	display:block;
 	float:left;
 	padding:8%;
-	text-align:center;
+	text-align: center;
 	width:33.33%;
 	height: 11em;
 }
@@ -169,7 +169,7 @@ header {
 .bio h2 {
 	color: #000000;
 	font-size: 1.5em;
-	margin: 1.5em 0 .1em 0;
+	margin: 1em 0 .1em 0;
 }
 .bio p {
 	margin: 1em 0;
@@ -296,7 +296,7 @@ header {
 }
 /*Clinics Page*/
 .clinics {
-	margin: 2em 0 2em 0;
+	margin: 1em 0 2em 0;
 }
 .coaching {
 	display: block;
@@ -441,7 +441,7 @@ header {
 	color: #000000;
 	font-size: 1.5em;
 	text-align: center;
-	padding: 1.5em 5em;
+	padding: 1em 5em;
 }
 /*One on One Page*/
 .onecolumns {
@@ -502,6 +502,27 @@ header {
 	content: "."; 
 	clear: both;
 	height: 0; 
+}
+@media screen and (max-width: 1200px) {
+	.onecolumns {
+		float: none;
+		width: 70%;
+		margin: 1em auto;
+		border: .2em solid #000000;
+	}
+	.oneimg {
+		display: none;
+	}
+	.onecolumns p {
+		margin-bottom: 0;
+	}
+	.onecolumns a {
+		border: none;
+		padding-bottom: .5em;
+	}
+	.onecolumns hr {
+		display: none;
+	}
 }
 @media screen and (max-width: 800px) {
 	.contact {
@@ -579,10 +600,10 @@ header {
     	color: #FF0000;
     }
     #labeltwo {
-    	float: right;
-    	width: 50%;
-    	text-align: center;
-    	margin: 1em auto;
+    	display: block;
+    	font-size: 1.5em;
+    	color: #fff;
+    	padding: 1em 0;
     }
     .contact {
     	float: none;
@@ -601,7 +622,6 @@ header {
     	float: none;
     	text-align: center;
     	font-size: .8em;
-    	text-align: center;
     	margin: auto;
     	width: 100%;
     }
@@ -613,18 +633,17 @@ header {
     }
     #toggletwo:checked + #secondnav {
     	display: block;
-    	float: left;
-    	width: 60%;
+    	float: right;
+    	width: 50%;
     }
     #homepage {
     	display: block;
     	float: left;
-    	width: 20%;
+    	width: 50%;
+    	padding: 1em 0 1em 2em;
     }
     #media {
-    	display: block;
-    	float: left;
-    	width: 20%;
+    	display: none
     }
     #hero {
     	display: none;
@@ -647,6 +666,25 @@ header {
     }
     #secondnav {
     	display: none;
+    }
+    #secondnav a {
+    	background-color: #000;
+    	display: block;
+    	float: none;
+    	text-align: center;
+    	font-size: .8em;
+    	margin: auto;
+    	width: 100%;
+    }
+    .bio h2 {
+    	margin-top: .5em;
+    	font-size: 1em;
+    }
+    .bio p {
+    	font-size: .8em;
+    }
+    .bio ul {
+    	font-size: .8em;
     }
     #cheer {
     	display: none;
