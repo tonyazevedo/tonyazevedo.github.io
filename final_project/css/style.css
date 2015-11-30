@@ -195,6 +195,7 @@ header {
 	font-size: 1.5em;
 	font-weight: 800;
 	float: left;
+	padding: 1em 0 0 1em;
 	width: 10%;
 	text-decoration: none;
 }
@@ -202,15 +203,18 @@ header {
 	color: #fff;
 	font-size: 1em;
 	float: left;
+	font-weight: 700;
+	padding: 0 1em 1em 0;
 	width: 10%;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 #secondnav a {
 	color: #FFFFFF;
 	text-decoration: none;
 	float: left;
 	padding: 2%;
-	width: 20%;
+	width: 17%;
 	text-align: center;
 }
 #headshot {
@@ -503,6 +507,12 @@ header {
 	clear: both;
 	height: 0; 
 }
+#toggle {
+	display: none;
+}
+#toggletwo {
+	display: none;
+}
 @media screen and (max-width: 1200px) {
 	.onecolumns {
 		float: none;
@@ -524,21 +534,49 @@ header {
 		display: none;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1020px) {
 	.contact {
-    	width: 25%;
+    	width: 30%;
     }
     .contact:active {
     	color: #FF0000;
     }
-    #hero {
-    	width: 50%;
+    #labeltwo {
+    	display: block;
+    	font-size: 1.5em;
+    	color: #fff;
+    	padding: 1em 0;
     }
-    #headline {
-    	width: 50%;
-	}
-	#social {
-    	width: 50%;
+    #toggletwo:checked + #secondnav {
+    	display: block;
+    	/*float: left;*/
+    	width: 30%;
+    }
+    #homepage {
+    	display: block;
+    	float: left;
+    	width: 30%;
+    	padding: 1em 0 1em 2em;
+    }
+    #media {
+    	display: block;
+    	float: left;
+    	width: 30%;
+    }
+    #secondnav {
+    	display: none;
+    }
+    #secondnav a {
+    	background-color: #000;
+    	display: block;
+    	float: none;
+    	text-align: center;
+    	font-size: .8em;
+    	margin: auto;
+    	width: 30%;
+    }
+    #social {
+    	width: 40%;
     }
     #navboxes div {
     	width: 50%;
@@ -550,42 +588,111 @@ header {
 	#navboxes p:active {
     	color: #FF0000;
     }
+}
+@media screen and (max-width: 970px) {
+	.clinicinfo {
+		float: none;
+		width: 100%;
+	}
+	.coaching {
+    	display: none;
+    }
+    .clinicinfo:nth-of-type(2) {
+	padding-left: 0;
+}
+    #beyondhead {
+    	padding: 1em 3em;
+    }
+    .beyondinfo {
+		float: none;
+		width: 100%;
+	}
+	.beyimg {
+		display: none;
+	}
+	.beyimgtwo {
+		display: none;
+	}
+	.beyondinfo a {
+		font-size: 1.5em;
+		font-weight: 700;
+		text-decoration: none;
+		color: #FF0000;
+	}
+	.beyondinfo a:active {
+		background-color: #00BFFF;
+	}
+	.beyondgroup:nth-of-type(2) p { 
+		margin: 0 1em 1em 0;
+	}
+	.beyondgroup:nth-of-type(2) a {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 800px) {
+	.contact {
+    	width: 25%;
+    }
+    #social {
+    	width: 50%;
+    }
+    #hero {
+    	width: 50%;
+    }
+    #headline {
+    	width: 50%;
+	}
 	#cheer, #headshot {
 		width: 40%;
 	}
-	.beyondinfo {
-		float: left;
-		width: 55%;
-		line-height: 1.4em;
-	}
-	.beyimg {
-		float: left;
-		width: 45%;
-	}
-	.beyimgtwo {
-		float: left;
-		width: 45%;
-	}
-	.clinicinfo {
-		float: left;
-		display: block;
-		width: 50%;
-	}
-	.coaching {
-		width: 50%;
-		float: left;
-		display: block;
-	}
-	.clinicinfo:nth-of-type(2) {
-	padding-left: 0;
+	.career {
+    	float: none;
+    	width: 100%;
+    }
+    #careerimage {
+    	display: none;
+    }
+    #clinicad {
+    	margin: 0 auto 2em;
+    	font-weight: 700;
+    	width: 70%;
+    }
+    #clinicad:hover {
+    	color: #00BFFF;
+    }
+    #clinicad:active {
+    	background-color: #FF0000;
+    }
+  	#academies {
+		margin: 2em 0 3em 0;
+		/*position: relative;*/
 }
-
+	#academies .reserve {
+		position: relative;
 }
-#toggle {
-	display: none;
-}
-#toggletwo {
-	display: none;
+    .wintsum {
+ 		float: none;
+ 		display: block;
+ 		width: 100%;
+ 	}
+ 	.wintsum:nth-of-type(2) {
+ 		margin-top: 2em;
+ 		margin-bottom: 0;
+ 	}
+@media screen and (max-width: 700px) {
+	.contact {
+    	float: none;
+    	display: block;
+    	width: 100%;
+    	text-align: center;
+    	margin-bottom: 1em;
+    }
+    #social {
+    	float: none;
+    	display: block;
+    	width: 70%;
+    	margin: auto;
+    }
 }
 @media screen and (max-width:500px) {
     label {
@@ -604,13 +711,6 @@ header {
     	font-size: 1.5em;
     	color: #fff;
     	padding: 1em 0;
-    }
-    .contact {
-    	float: none;
-    	display: block;
-    	width: 100%;
-    	text-align: center;
-    	margin-bottom: 1em;
     }
     #main {
     	display: none;
@@ -657,6 +757,7 @@ header {
     	float: none;
     	display: block;
     	width: 100%;
+    	margin: auto;
     }
     #navboxes div {
     	width: 100%;
@@ -689,34 +790,11 @@ header {
     #cheer {
     	display: none;
     }
-    .career {
-    	float: none;
-    	width: 100%;
-    }
-    #careerimage {
-    	display: none;
-    }
     #clinicad {
     	margin: 0 auto 2em;
-    	background-color: #FF0000;
     	font-weight: 700;
-    }
-    #clinicad:hover {
- 		color: #000;
-    }
-    .clinicinfo {
-    	float: none;
-    	display: block;
     	width: 100%;
     }
-    .coaching {
-    	display: none;
-    }
- 	.wintsum {
- 		float: none;
- 		display: block;
- 		width: 100%;
- 	}
     .beyondinfo {
     	float: none;
     	width: 100%;
