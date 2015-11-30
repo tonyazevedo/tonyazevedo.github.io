@@ -68,6 +68,14 @@ h1 {
 	font-style: italic;
 	margin: auto;
 }
+#homepagead {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	border: 1px solid #FFFFFF;
+	padding: 1%;
+	/*display: none;*/
+}
 #navboxes {
 	font-size: 1.5em;
 	background-color: #000000;
@@ -192,29 +200,36 @@ header {
 }
 #homepage {
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-weight: 800;
 	float: left;
-	padding: 1em 0 0 1em;
-	width: 10%;
+	padding: 2%;
+	width: 16.67%;
 	text-decoration: none;
+	text-align: center;
 }
 #media {
 	color: #fff;
 	font-size: 1em;
 	float: left;
 	font-weight: 700;
-	padding: 0 1em 1em 0;
-	width: 10%;
+	padding: 2em 1em 1em 0;
+	width: 16.67%;
 	text-decoration: none;
 	text-transform: uppercase;
+	text-align: center;
+}
+#secondnav {
+	float: left;
+	width: 66.65%;
 }
 #secondnav a {
 	color: #FFFFFF;
 	text-decoration: none;
+	width: 25%;
+	display: block;
 	float: left;
-	padding: 2%;
-	width: 17%;
+	padding: 2em 1em 1em 1em;
 	text-align: center;
 }
 #headshot {
@@ -535,6 +550,9 @@ header {
 	}
 }
 @media screen and (max-width: 1020px) {
+	header {
+		position: relative;
+	}
 	.contact {
     	width: 30%;
     }
@@ -543,25 +561,28 @@ header {
     }
     #labeltwo {
     	display: block;
+    	float: left;
+    	width: 33.33%;
     	font-size: 1.5em;
     	color: #fff;
     	padding: 1em 0;
+    	text-align: center;
     }
     #toggletwo:checked + #secondnav {
     	display: block;
-    	/*float: left;*/
-    	width: 30%;
+    	float: none;
+    	width: 100%;
+    	position: absolute;
+    	top: 80px;
+    	left: 0;
     }
     #homepage {
-    	display: block;
-    	float: left;
-    	width: 30%;
-    	padding: 1em 0 1em 2em;
+    	width: 33.33%;
+    	padding: .5em 0 1em .5em;
     }
     #media {
-    	display: block;
-    	float: left;
-    	width: 30%;
+    	width: 33.33%;
+    	padding: 1.8em 1em 1em 0;
     }
     #secondnav {
     	display: none;
@@ -573,7 +594,7 @@ header {
     	text-align: center;
     	font-size: .8em;
     	margin: auto;
-    	width: 30%;
+    	width: auto;
     }
     #social {
     	width: 40%;
@@ -666,10 +687,10 @@ header {
   	#academies {
 		margin: 2em 0 3em 0;
 		/*position: relative;*/
-}
+	}
 	#academies .reserve {
 		position: relative;
-}
+	}
     .wintsum {
  		float: none;
  		display: block;
@@ -732,15 +753,15 @@ header {
         display:block;
     }
     #toggletwo:checked + #secondnav {
-    	display: block;
     	float: right;
-    	width: 50%;
+    	width: 65%;
+    	position: static;
     }
     #homepage {
     	display: block;
     	float: left;
     	width: 50%;
-    	padding: 1em 0 1em 2em;
+    	padding: .5em 0 1em .5em;
     }
     #media {
     	display: none
@@ -752,6 +773,9 @@ header {
     	width: 100%;
     	text-align: center;
     	margin: 1em auto;
+    }
+    #homepagead {
+    	display: block;
     }
     #social {
     	float: none;
@@ -779,13 +803,12 @@ header {
     }
     .bio h2 {
     	margin-top: .5em;
-    	font-size: 1em;
     }
     .bio p {
-    	font-size: .8em;
+    	line-height: 1.6em;
     }
     .bio ul {
-    	font-size: .8em;
+    	line-height: 1.6em;
     }
     #cheer {
     	display: none;
