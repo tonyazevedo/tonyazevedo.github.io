@@ -47,7 +47,7 @@ h1 {
 	background-color: #000000;
 }
 #hero {
-	background:url(../images/tony_mikasa.jpeg) no-repeat;
+	background:url(../images/tony_belleza.jpg) no-repeat;
 	background-size:cover;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -73,8 +73,17 @@ h1 {
 	color: #FFFFFF;
 	font-size: 1.5em;
 	border: 1px solid #FFFFFF;
-	padding: 1%;
-	/*display: none;*/
+	padding: 1% .5%;
+	text-align: center;
+	width: 70%;
+	margin: 3em 4em 0 0;
+}
+#homepagead a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#homepagead a:hover {
+	color: #FF0000;
 }
 #navboxes {
 	font-size: 1.5em;
@@ -370,7 +379,7 @@ header {
 .clinics .reserve {
 	margin-top: 1em;
 }
-.clinics .reserve:hover {
+.reserve:hover {
 	color: #00BFFF;
 }
 #academies {
@@ -592,7 +601,8 @@ header {
     	display: block;
     	float: none;
     	text-align: center;
-    	font-size: .8em;
+    	font-size: 1em;
+    	padding: 2%;
     	margin: auto;
     	width: auto;
     }
@@ -611,6 +621,12 @@ header {
     }
 }
 @media screen and (max-width: 970px) {
+	#hero {
+    	width: 50%;
+    }
+    #headline {
+    	width: 50%;
+	}
 	.clinicinfo {
 		float: none;
 		width: 100%;
@@ -619,28 +635,36 @@ header {
     	display: none;
     }
     .clinicinfo:nth-of-type(2) {
-	padding-left: 0;
-}
+		padding-left: 0;
+	}
+	.reserve:active {
+		background-color: #FF0000;
+	}
+	#homepagead:active {
+		background-color: #FF0000;
+	}
+	#clinicad:hover {
+    	color: #00BFFF;
+    }
+    #clinicad:active {
+    	background-color: #FF0000;
+    }
     #beyondhead {
     	padding: 1em 3em;
     }
-    .beyondinfo {
-		float: none;
-		width: 100%;
-	}
-	.beyimg {
-		display: none;
-	}
-	.beyimgtwo {
-		display: none;
-	}
-	.beyondinfo a {
+    .beyimg {
+ 		float: right;
+ 	}
+ 	.beyimgtwo {
+ 		float: right;
+ 	}
+	.beyonda {
 		font-size: 1.5em;
 		font-weight: 700;
 		text-decoration: none;
 		color: #FF0000;
 	}
-	.beyondinfo a:active {
+	.beyonda:active {
 		background-color: #00BFFF;
 	}
 	.beyondgroup:nth-of-type(2) p { 
@@ -657,11 +681,8 @@ header {
     #social {
     	width: 50%;
     }
-    #hero {
-    	width: 50%;
-    }
-    #headline {
-    	width: 50%;
+	#homepagead:active {
+		color: #FF0000;
 	}
 	#cheer, #headshot {
 		width: 40%;
@@ -678,15 +699,8 @@ header {
     	font-weight: 700;
     	width: 70%;
     }
-    #clinicad:hover {
-    	color: #00BFFF;
-    }
-    #clinicad:active {
-    	background-color: #FF0000;
-    }
   	#academies {
 		margin: 2em 0 3em 0;
-		/*position: relative;*/
 	}
 	#academies .reserve {
 		position: relative;
@@ -699,6 +713,16 @@ header {
  	.wintsum:nth-of-type(2) {
  		margin-top: 2em;
  		margin-bottom: 0;
+ 	}
+ 	.beyondinfo {
+ 		float: none;
+ 		width: 100%;
+ 	}
+ 	.beyimg {
+ 		display: none;
+ 	}
+ 	.beyimgtwo {
+ 		display: none;
  	}
 @media screen and (max-width: 700px) {
 	.contact {
@@ -713,6 +737,9 @@ header {
     	display: block;
     	width: 70%;
     	margin: auto;
+    }
+    .coaching {
+    	display: none;
     }
 }
 @media screen and (max-width:500px) {
@@ -742,7 +769,7 @@ header {
     	display: block;
     	float: none;
     	text-align: center;
-    	font-size: .8em;
+    	font-size: 1em;
     	margin: auto;
     	width: 100%;
     }
@@ -775,7 +802,7 @@ header {
     	margin: 1em auto;
     }
     #homepagead {
-    	display: block;
+    	margin: 2em auto;
     }
     #social {
     	float: none;
@@ -796,8 +823,8 @@ header {
     	background-color: #000;
     	display: block;
     	float: none;
+    	padding: 3%;
     	text-align: center;
-    	font-size: .8em;
     	margin: auto;
     	width: 100%;
     }
@@ -825,9 +852,8 @@ header {
     .beyimg {
     	display: none;
     }
-    .beyondgroup h2 {
-    	text-align: center;
-    	margin: auto;
+    .beyimgtwo {
+    	display: none;
     }
     .beyonda {
     	text-align: center;
