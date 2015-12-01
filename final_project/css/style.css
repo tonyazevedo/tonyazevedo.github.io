@@ -45,21 +45,15 @@ h1 {
 }
 #splash {
 	background-color: #000000;
-}
-#hero {
 	background:url(../images/tony_belleza.jpg) no-repeat;
-	background-size:cover;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-	float: left;
-	width: 66.66%;
-	height: 90vh;
+	background-position: center left;
+	background-size: 66.66%;
 }
 #headline {
-	float: left;
+	float: right;
 	width: 33.33%;
 	margin: 8em 0;
+	background-color: #000000;
 }
 #slogan {
 	background-color: #000000;
@@ -326,14 +320,6 @@ header {
 .clinics {
 	margin: 1em 0 2em 0;
 }
-.coaching {
-	display: block;
-	float: left;
-	width: 40%;
-}
-.coaching img {
-	width: 100%;
-}
 .clinicinfo {
 	display: block;
 	float: left;
@@ -341,24 +327,20 @@ header {
 }
 .clinicinfo h2 {
 	font-size: 1.5em;
+	border-bottom: 2px solid;
+	display: inline-block;
 }
 .clinicinfo p {
 	font-size: 1em;
 	line-height: 1.6em;
+	padding-top: .5em;
 }	
 .clinicinfo h3 {
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
 }
-.clinicinfo hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 15em;
-	margin: 0 0 .5em 0;
-}
 .clinicinfo:nth-of-type(2) {
-	padding-left: 1em;
+	padding-left: 2em;
 }
 .clinicinfo p:nth-of-type(2) {
 	font-style: italic;
@@ -382,6 +364,15 @@ header {
 .reserve:hover {
 	color: #00BFFF;
 }
+#coaching {
+	float: left;
+	width: 40%;
+}
+#academy {
+	float: left;
+	width: 40%;
+	padding-right: 1em;
+}
 #academies {
 	margin: 2em 0 3em 0;
 	position: relative;
@@ -395,10 +386,12 @@ header {
 	font-size: 1em;
 }
 .wintsum {
-	display: inline-block;
 	float: left;
-	height: 13em;
-	width: 50%;
+	min-height: 13em;
+	width: 40%;
+}
+#academies div:last-child {
+	float: right;
 }
 .wintsum h4 {
 	font-size: 1.5em;
@@ -477,48 +470,37 @@ header {
 	width: 33.33%;
 	padding-right: 1.5em;
 	margin: 2em 0;
+	position: relative;
+	min-height: 37em;
 }
 .oneimg {
 	display: block;
-	width: 100%;
-	padding: 1em 1em;
-}
-.oneheight {
-	height: 15em;
-}
-.oneimg img {
-	width: 100%;
+	width: 80%;
+	padding: 1em 0;
 }
 .onecolumns h2 {
 	font-size: 1.5em;
-	text-align: center;
+	border-bottom: 2px solid;
+	display: inline-block;
 }
 .onecolumns p {
 	font-size: 1em;
 	line-height: 1.6em;
 	margin: 1em 0;
-	padding: 0 4%;
-	text-align: center;
 }
 .onecolumns a {
 	display: block;
+	text-transform: uppercase;
 	text-decoration: none;
-	text-align: center;
 	color: #000000;
-	font-size: 2em;
-	font-variant: small-caps;
+	font-size: 1.5em;
 	font-weight: bold;
 	border: .1em solid #000000;
 	padding: 1%;
-	margin: auto;
-	width: 10em;
-}
-.onecolumns hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 100%;
-	margin: auto;
+	text-align: center;
+	width: 60%;
+	position: absolute;
+	bottom: 0;
 }
 .onecolumns a:hover {
 	color: #FF0000;
@@ -539,13 +521,16 @@ header {
 }
 @media screen and (max-width: 1200px) {
 	.onecolumns {
-		float: none;
-		width: 70%;
+		display: block;
+		width: 90%;
 		margin: 1em auto;
 		border: .2em solid #000000;
+		min-height: 12em;
 	}
 	.oneimg {
-		display: none;
+		float: right;
+		width: 35%;
+		padding: 1%;
 	}
 	.onecolumns p {
 		margin-bottom: 0;
@@ -553,9 +538,12 @@ header {
 	.onecolumns a {
 		border: none;
 		padding-bottom: .5em;
+		text-align: left;
 	}
-	.onecolumns hr {
-		display: none;
+	.oneheight {
+		float: left;
+		width: 60%;
+		padding: 1%;
 	}
 }
 @media screen and (max-width: 1020px) {
@@ -621,9 +609,6 @@ header {
     }
 }
 @media screen and (max-width: 970px) {
-	#hero {
-    	width: 50%;
-    }
     #headline {
     	width: 50%;
 	}
@@ -631,11 +616,12 @@ header {
 		float: none;
 		width: 100%;
 	}
-	.coaching {
+	#academy {
     	display: none;
     }
     .clinicinfo:nth-of-type(2) {
 		padding-left: 0;
+		width: 100%;
 	}
 	.reserve:active {
 		background-color: #FF0000;
@@ -739,6 +725,13 @@ header {
     	margin: auto;
     }
     .coaching {
+    	display: none;
+    }
+    .oneheight {
+    	float: none;
+    	width: 100%;
+    }
+    .oneimg {
     	display: none;
     }
 }
