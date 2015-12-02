@@ -299,9 +299,6 @@ header {
 #careerimage {
 	width: 100%;
 }
-#careerimage img {
-	width: 100%;
-}
 #clinicad {
 	color: #000;
 	border: 3px solid #000;
@@ -609,16 +606,20 @@ header {
     }
 }
 @media screen and (max-width: 970px) {
-    #headline {
-    	width: 50%;
+	#splash {
+		background-position: top left;
+		background-size: 60%;
 	}
-	.clinicinfo {
+	#headline {
+		width: 40%;
+		margin: 4em 0;
+	}
+	/*#academy {
+		display: none;
+	}*/
+	/*.clinicinfo {
 		float: none;
-		width: 100%;
-	}
-	#academy {
-    	display: none;
-    }
+	}*/
     .clinicinfo:nth-of-type(2) {
 		padding-left: 0;
 		width: 100%;
@@ -660,6 +661,11 @@ header {
 		margin-left: 0;
 	}
 }
+@media screen and (max-width: 890px) {
+	.wintsum {
+		min-height: 17em;
+	}
+}
 @media screen and (max-width: 800px) {
 	.contact {
     	width: 25%;
@@ -677,16 +683,21 @@ header {
     	float: none;
     	width: 100%;
     }
-    #careerimage {
-    	display: none;
-    }
+    /*.career:first-child {
+    	float: left;
+    	width: 60%;
+    }*/
+    /*#careerimage {
+    	float: right;
+    	width: 40%;
+    }*/
     #clinicad {
-    	margin: 0 auto 2em;
+    	margin: 0 0 0 2em;
     	font-weight: 700;
-    	width: 70%;
+    	width: 40%;
     }
   	#academies {
-		margin: 2em 0 3em 0;
+		margin: 0;
 	}
 	#academies .reserve {
 		position: relative;
@@ -695,10 +706,6 @@ header {
  		float: none;
  		display: block;
  		width: 100%;
- 	}
- 	.wintsum:nth-of-type(2) {
- 		margin-top: 2em;
- 		margin-bottom: 0;
  	}
  	.beyondinfo {
  		float: none;
@@ -718,6 +725,12 @@ header {
     	text-align: center;
     	margin-bottom: 1em;
     }
+    #splash {
+		background-size: 50%;
+	}
+	#headline {
+		width: 50%;
+	}
     #social {
     	float: none;
     	display: block;
@@ -727,6 +740,9 @@ header {
     .coaching {
     	display: none;
     }
+    .wintsum {
+    	width: 50%;
+    }
     .oneheight {
     	float: none;
     	width: 100%;
@@ -734,6 +750,15 @@ header {
     .oneimg {
     	display: none;
     }
+}
+@media screen and (max-width: 530px) {
+	#splash {
+		background-size: 40%;
+	}
+	#headline {
+		width: 60%;
+		margin: 1em 0;
+	}
 }
 @media screen and (max-width:500px) {
     label {
@@ -786,8 +811,8 @@ header {
     #media {
     	display: none
     }
-    #hero {
-    	display: none;
+    #splash {
+    	background: none #000;
     }
     #headline {
     	width: 100%;
