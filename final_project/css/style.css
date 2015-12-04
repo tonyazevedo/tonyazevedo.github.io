@@ -519,15 +519,15 @@ header {
 @media screen and (max-width: 1200px) {
 	.onecolumns {
 		display: block;
-		width: 90%;
+		width: 80%;
 		margin: 1em auto;
 		border: .2em solid #000000;
-		min-height: 12em;
+		min-height: 15em;
 	}
 	.oneimg {
 		float: right;
-		width: 35%;
-		padding: 1%;
+		width: 30%;
+		padding-left: 1%;
 	}
 	.onecolumns p {
 		margin-bottom: 0;
@@ -539,8 +539,8 @@ header {
 	}
 	.oneheight {
 		float: left;
-		width: 60%;
-		padding: 1%;
+		width: 70%;
+		padding: 1% 5% 1% 1%;
 	}
 }
 @media screen and (max-width: 1020px) {
@@ -552,6 +552,10 @@ header {
     }
     .contact:active {
     	color: #FF0000;
+    }
+    .onecolumns {
+    	width: 90%;
+    	min-height: 17em;
     }
     #labeltwo {
     	display: block;
@@ -614,9 +618,9 @@ header {
 		width: 40%;
 		margin: 4em 0;
 	}
-	/*#academy {
+	#academy {
 		display: none;
-	}*/
+	}
 	/*.clinicinfo {
 		float: none;
 	}*/
@@ -683,18 +687,13 @@ header {
     	float: none;
     	width: 100%;
     }
-    /*.career:first-child {
-    	float: left;
-    	width: 60%;
-    }*/
-    /*#careerimage {
-    	float: right;
-    	width: 40%;
-    }*/
+    #careerimage {
+    	display: none;
+    }
     #clinicad {
-    	margin: 0 0 0 2em;
+    	margin: 0 0 2em 0;
     	font-weight: 700;
-    	width: 40%;
+    	width: 50%;
     }
   	#academies {
 		margin: 0;
@@ -740,18 +739,30 @@ header {
     .coaching {
     	display: none;
     }
-    .wintsum {
-    	width: 50%;
-    }
-    .oneheight {
-    	float: none;
-    	width: 100%;
-    }
-    .oneimg {
-    	display: none;
+    .onecolumns {
+    	min-height: 20em;
     }
 }
 @media screen and (max-width: 530px) {
+	.oneimg {
+    	display: none;
+    }
+    .onecolumns {
+    	border: none;
+    	min-height: 15em;
+    	width: 100%;
+    }
+    .oneheight {
+    	width: 100%;
+    	padding: 0;
+    }
+    .onecolumns a {
+    	color: #FF0000;
+    	padding: 0;
+    }
+    .onecolumns a:active {
+    	background-color: #00BFFF;
+    }
 	#splash {
 		background-size: 40%;
 	}
@@ -883,5 +894,13 @@ header {
     	margin: 1em auto;
     	font-size: 1.5em;
     }
-    
 }
+	@media screen and (max-width:475px) {
+		.oneheight {
+			min-height: 15em;
+		}
+	@media screen and (max-width:410px) {
+		.oneheight {
+			min-height: 17em;
+		}
+
