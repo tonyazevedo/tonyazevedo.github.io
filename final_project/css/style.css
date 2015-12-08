@@ -181,19 +181,13 @@ header {
 	color: #000000;
 	font-size: 1.5em;
 	margin: 1em 0 .1em 0;
+	border-bottom: 2px solid;
 }
 .bio p {
 	margin: 1em 0;
 	font-size: 1em;
-	line-height: 1.4em;
+	line-height: 1.4;
 } 
-.bio hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 100%;
-	margin: 0 0 .5em 0;
-}
 .bio ul {
 	margin: 1em 0 2em 1em;
 	font-size: 1em;
@@ -238,20 +232,14 @@ header {
 #headshot {
 	width: 50%;
 	float: left;
+	padding: .5em 1em 0 0;
 }
 #cheer {
 	width: 50%;
 	float: right;
-}
-#headshot img {
-	width: 100%;
-	padding: .5em 1em 0 0;
-}
-#cheer img {
-	width: 100%;
 	padding-top: .5em;
 }
-/*Career Page*/
+/*Career Page */
 .career {
 	float: left;
 	width: 50%;
@@ -266,6 +254,7 @@ header {
 	color: #000000;
 	font-size: 1.5em;
 	margin: 1em 0 0 0;
+	border-bottom: 2px solid;
 }
 .career h3 {
 	float: left;
@@ -281,13 +270,6 @@ header {
 }
 .proleague:last-of-type {
 	margin-bottom: 4em;
-}
-.career hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	width: 100%;
-	margin: 0 0 .5em 0;
 }
 .career ul {
 	font-size: 1em;
@@ -342,9 +324,13 @@ header {
 .clinicinfo p:nth-of-type(2) {
 	font-style: italic;
 }
-.clinicinfo:nth-of-type(2) hr {
-	width: 10em;
+.clinics:nth-of-type(2) .clinicinfo {
+	float: none;
+    width: 100%;
 }
+/*.clinicinfo:nth-of-type(2) hr {
+	width: 10em;
+}*/
 .reserve {
 	border: .1em solid #000000;
 	color: #FF0000;
@@ -364,6 +350,7 @@ header {
 #coaching {
 	float: left;
 	width: 40%;
+	padding-left: 2em;
 }
 #academy {
 	float: left;
@@ -406,60 +393,43 @@ header {
 	margin: 0 0 2em 0;
 }
 .beyondinfo {
-	float: left;
-	width: 65%;
-	line-height: 1.6em;
+	line-height: 1.5;
+	font-size: 1em;
+	padding-top: 1em;
+}
+.beyondgroup:nth-of-type(2) .beyondinfo {
+	padding-top: 1em;
 }
 .beyimg {
-	float: left;
+	float: right;
 	width: 35%;
-	padding-left: 1em;
+	padding: 1em 0 0 1em;
 }
 .beyimgtwo {
 	float: left;
 	width: 35%;
-	padding-left: 0;
+	padding: 1em 1em 0 0;
 }
-.beyimg img {
-	width: 100%;
-}
-.beyimgtwo img {
-	width: 100%;
-}
-.beyondinfo h2 {
+.beyondgroup h2 {
 	font-size: 1.5em;
+	border-bottom: 2px solid;
 }
-.beyondinfo p {
-	font-size: 1em;
-	margin: 0 1em 1em 0;
-}
-.beyondgroup:nth-of-type(2) p { 
-	margin: 0 0 1em 1em;
-}
-.beyondgroup:nth-of-type(2) a {
-	margin-left: .5em;
-}
-.beyimg:nth-of-type(2) {
-	padding-left: none;
-}
-.beyondgroup hr {
-	border: none;
-	height: .15em;
-	background-color: #000000;
-	max-width: 75em;
-	margin-bottom: 1em;
-}
-.beyondinfo a {
+.beyondgroup a {
 	font-size: 1.5em;
+	display: inline-block;
+	font-weight: 700;
+	text-transform: uppercase;
 	text-decoration: none;
 	color: #FF0000;
+	clear: both;
+	margin-top: 1em;
 }
 #beyondhead {
 	background-color: #FFFFFF;
 	color: #000000;
 	font-size: 1.5em;
 	text-align: center;
-	padding: 1em 5em;
+	padding: 2em 5em;
 }
 /*One on One Page*/
 .onecolumns {
@@ -489,9 +459,9 @@ header {
 	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #000000;
+	color: #FF0000;
 	font-size: 1.5em;
-	font-weight: bold;
+	font-weight: 700;
 	border: .1em solid #000000;
 	padding: 1%;
 	text-align: center;
@@ -500,7 +470,7 @@ header {
 	bottom: 0;
 }
 .onecolumns a:hover {
-	color: #FF0000;
+	color: #00BFFF;
 }
 .clearfix:after { 
 	visibility: hidden; 
@@ -521,21 +491,26 @@ header {
 		display: block;
 		width: 80%;
 		margin: 1em auto;
-		border: .2em solid #000000;
 		min-height: 15em;
 	}
 	.oneimg {
 		float: right;
 		width: 30%;
 		padding-left: 1%;
+		margin-top: 1.5em;
+	}
+	.onecolumns h2 {
+		display: block;
 	}
 	.onecolumns p {
 		margin-bottom: 0;
 	}
 	.onecolumns a {
 		border: none;
-		padding-bottom: .5em;
+		display: inline block;
 		text-align: left;
+		/*position: relative;*/
+		/*margin-top: 4em;*/
 	}
 	.oneheight {
 		float: left;
@@ -553,9 +528,19 @@ header {
     .contact:active {
     	color: #FF0000;
     }
+    .beyondgroup a {
+    	margin-top: 0;
+    	padding: 1em 1em 1em 0;
+    }
+    .beyondgroup a:active {
+    	background-color: #00BFFF;
+    }
     .onecolumns {
     	width: 90%;
     	min-height: 17em;
+    }
+    .onecolumns a {
+    	position: relative;
     }
     #labeltwo {
     	display: block;
@@ -618,16 +603,6 @@ header {
 		width: 40%;
 		margin: 4em 0;
 	}
-	#academy {
-		display: none;
-	}
-	/*.clinicinfo {
-		float: none;
-	}*/
-    .clinicinfo:nth-of-type(2) {
-		padding-left: 0;
-		width: 100%;
-	}
 	.reserve:active {
 		background-color: #FF0000;
 	}
@@ -641,33 +616,15 @@ header {
     	background-color: #FF0000;
     }
     #beyondhead {
-    	padding: 1em 3em;
+    	padding: 1em 2em 2em 2em;
     }
-    .beyimg {
- 		float: right;
- 	}
- 	.beyimgtwo {
- 		float: right;
- 	}
-	.beyonda {
-		font-size: 1.5em;
-		font-weight: 700;
-		text-decoration: none;
-		color: #FF0000;
-	}
-	.beyonda:active {
-		background-color: #00BFFF;
-	}
-	.beyondgroup:nth-of-type(2) p { 
-		margin: 0 1em 1em 0;
-	}
-	.beyondgroup:nth-of-type(2) a {
-		margin-left: 0;
-	}
 }
 @media screen and (max-width: 890px) {
 	.wintsum {
 		min-height: 17em;
+	}
+	#beyondhead {
+		padding: 2em 2em;
 	}
 }
 @media screen and (max-width: 800px) {
@@ -687,13 +644,26 @@ header {
     	float: none;
     	width: 100%;
     }
+    .career ul {
+    	float: left;
+    	width: 60%;
+    }
     #careerimage {
-    	display: none;
+    	float: left;
+    	width: 40%;
+    	padding: 2% 0 4% 0;
     }
     #clinicad {
     	margin: 0 0 2em 0;
     	font-weight: 700;
-    	width: 50%;
+    	width: 100%;
+    	clear: both;
+    }
+    #coaching {
+    	margin-top: 1em;
+    }
+    #academy {
+    	margin-top: 1em;
     }
   	#academies {
 		margin: 0;
@@ -708,14 +678,12 @@ header {
  	}
  	.beyondinfo {
  		float: none;
- 		width: 100%;
+ 		width: auto;
  	}
- 	.beyimg {
- 		display: none;
- 	}
- 	.beyimgtwo {
- 		display: none;
- 	}
+ 	.beyondgroup:nth-of-type(2) .beyondinfo {
+		float: none;
+		width: auto;
+}
 @media screen and (max-width: 700px) {
 	.contact {
     	float: none;
@@ -723,6 +691,9 @@ header {
     	width: 100%;
     	text-align: center;
     	margin-bottom: 1em;
+    }
+    #beyondhead {
+    	padding: 1em 0 2em 0;
     }
     #splash {
 		background-size: 50%;
@@ -743,7 +714,26 @@ header {
     	min-height: 20em;
     }
 }
+@media screen and (max-width: 565px) {
+	.career ul {
+		float: none;
+		width: 100%;
+	}
+	#careerimage {
+		display: none;
+	}
+}
 @media screen and (max-width: 530px) {
+	.clinicinfo {
+		float: none;
+		width: 100%;
+	}
+	.beyimg {
+		display: none;
+	}
+	.beyimgtwo {
+		display: none;
+	}
 	.oneimg {
     	display: none;
     }
@@ -769,6 +759,12 @@ header {
 	#headline {
 		width: 60%;
 		margin: 1em 0;
+	}
+	#coaching {
+		display: none;
+	}
+	#academy {
+		display: none;
 	}
 }
 @media screen and (max-width:500px) {
@@ -873,20 +869,6 @@ header {
     	margin: 0 auto 2em;
     	font-weight: 700;
     	width: 100%;
-    }
-    .beyondinfo {
-    	float: none;
-    	width: 100%;
-    }
-    .beyimg {
-    	display: none;
-    }
-    .beyimgtwo {
-    	display: none;
-    }
-    .beyonda {
-    	text-align: center;
-    	width: auto;
     }
     #beyondhead {
     	width: 100%;
